@@ -1,0 +1,29 @@
+@import "static/scss/general/ui";
+@import "static/scss/modals/modal.scss";
+
+body {
+  background: linear-gradient(163.21deg, #8A3EB7 8.93%, #F2B84A 91.68%);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+*::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+* {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+input[type="submit"] {
+  border: none;
+  outline: none;
+}
+
+.none {
+  display: none !important;
+}

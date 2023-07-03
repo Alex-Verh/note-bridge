@@ -1,0 +1,98 @@
+@import "../general/variables";
+
+$filter-color: #493A52;
+
+.filters {
+  position: fixed;
+  left: 0;
+  top: 100px;
+  border-radius: 0 30px 30px 0;
+  background-color: $filter-color;
+  width: 250px;
+  min-height: 480px;
+  overflow-y: scroll;
+  padding: 13px 20px;
+  user-select: none;
+  &__reset-filters {
+    border: 1px solid #FF8D80;
+    border-radius: 20px;
+  }
+  &__field, &__reset-filters  {
+    margin: 13px auto;
+    width: 100%;
+    cursor: pointer;
+  }
+  &__list {
+    margin-top: 3px;
+    background-color: $third-color;
+    border-radius: 20px;
+  }
+  &__dropdown {
+    display: none;
+    &__open {
+      display: block !important;
+      overflow: scroll;
+    }
+  }
+  #instruments-list {
+    height: 200px;
+  }
+  &__line {
+    border-radius: 20px;
+    border: 2px solid $third-color;
+    padding: 3px 14px;
+    outline:none;
+    width: 100%;
+  }
+  &__input {
+    margin: 13px auto;
+    background-color: transparent;
+    color: $third-color;
+  }
+  &__input:focus {
+    border: 2px solid $second-color;
+  }
+    &__option {
+    background-color: $third-color;
+    color: $filter-color;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    text-transform: capitalize;
+    }
+  &__radio:after {
+    content: "";
+    margin-right: 1px;
+    height: 14px;
+    width: 14px;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid $filter-color;
+  }
+  input[type="radio"]{
+    display: none;
+  }
+  .rotate{
+    transform: rotate(180deg);
+  }
+  input[type="radio"]:checked + .filters__radio:after {
+    content: "";
+    margin-right: 1px;
+    height: 14px;
+    width: 14px;
+    background-color: $second-color;
+    border-radius: 10px;
+  }
+  .calendar {
+    font-size: 12px;
+    padding: 5px;
+  }
+  .calendar table {
+    margin: 0 auto;
+  }
+  @media screen and (max-width: 600px) {
+    display: none;
+  }
+}
+

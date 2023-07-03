@@ -1,0 +1,58 @@
+@import "../general/variables";
+
+.register {
+  &__title {
+    margin-top: 50px;
+    text-align: center;
+    font-family: $font-header;
+    font-weight: 800;
+    font-size: 32px;
+  }
+
+  &__btn {
+    display: block;
+    margin: 0 auto;
+  }
+  &__propose {
+    text-align: center;
+    margin: 20px 0 50px 0;
+    font-family: $font-text;
+    font-size: 15px;
+    font-weight: 300;
+    a {
+      font-weight: 400;
+      text-decoration: none;
+    }
+    a:hover {
+      color: $second-color;
+    }
+  }
+  &__image {
+    width: 100%;
+
+    img {
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    &__title {
+      font-size: 24px;
+    }
+    .choice {
+      width: 300px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    &__image {
+      display: none;
+    }
+  }
+  @media screen and (max-height: 700px) {
+    &__title {
+      font-size: 28px;
+    }
+    &__image {
+      margin-top: 50px;
+    }
+  }
+}

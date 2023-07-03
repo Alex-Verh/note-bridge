@@ -1,0 +1,90 @@
+@import "../general/variables";
+
+#add-review {
+    .add-review {
+        font-size: 20px;
+        font-family: $font-header;
+        font-weight: 800;
+        &__teacher {
+            text-align: right;
+            span {
+                display: block;
+            }
+        }
+        &__title {
+            font-size: 24px;
+        }
+        &__description {
+            font-size: 16px;
+        }
+        &__lesson, &__teacher {
+            margin-top: 40px;
+            height: 80px;
+        }
+        &__location, &__description {
+            font-weight: 400;
+            display: block;
+        }
+        &__mark {
+            margin: 30px 0 30px auto;
+
+            .input {
+                font-weight: 700;
+                font-size: 64px;
+                color: $second-color;
+                -webkit-text-stroke: 1px #000;
+            }
+        }
+        &__comment {
+            margin: 30px auto 30px 0;
+        }
+        @media screen and (max-width: 650px) {
+            &__mark {
+                .input {
+                    font-size: 40px;
+                    padding: 0;
+                }
+            }
+            &__title {
+                font-size: 16px;
+            }
+            &__description {
+                font-size: 12px;
+            }
+            &__teacher {
+                font-size: 10px;
+            }
+        }
+        @media screen and (max-width: 470px) {
+            &__mark {
+                .input {
+                    font-size: 24px;
+                }
+            }
+            &__teacher {
+                font-size: 8px;
+                img {
+                    width: 8px;
+                }
+            }
+            &__title {
+                font-size: 14px;
+            }
+            &__description {
+                font-size: 10px;
+            }
+        }
+    }
+    .input-field {
+        width: 80%;
+        .input {
+            height: 120px;
+            text-align: center;
+        }
+    }
+    @media screen and (max-width: 900px) {
+        .input-field {
+            width: 100%;
+        }
+    }
+}

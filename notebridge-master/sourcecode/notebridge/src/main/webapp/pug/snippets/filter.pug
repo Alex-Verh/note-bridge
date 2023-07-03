@@ -1,0 +1,79 @@
+aside.map-filters.filters
+    label(for='search-location')
+    input#search-location.filters__input.filters__line(type='text' name='search-location' placeholder='Search location')
+    .filters__field
+        .filters__option-header.filters__option.filters__line
+            span Instrument
+            img.filters__arrow(src='../static/images/icons/arrow.svg' alt='Arrow')
+        .filters__list.filters__dropdown#instruments-list
+
+
+    .filters__field
+        .filters__option-header.filters__option.filters__line
+            span Level
+            img.filters__arrow(src='../static/images/icons/arrow.svg' alt='Arrow')
+        .filters__list.filters__dropdown#level-list
+            input#1level(type='radio' name='skillLevel')
+            label.filters__radio.filters__option.filters__line(for='1level') Beginner
+            input#2level(type='radio' name='skillLevel')
+            label.filters__radio.filters__option.filters__line(for='2level') Intermediate
+            input#3level(type='radio' name='skillLevel')
+            label.filters__radio.filters__option.filters__line(for='3level') Advanced
+    .filters__field
+        .filters__option-header.filters__option.filters__line
+            span Type
+            img.filters__arrow(src='../static/images/icons/arrow.svg' alt='Arrow')
+        .filters__list.filters__dropdown#type-list
+            input#true(type='radio' name='type')
+            label.filters__radio.filters__option.filters__line(for='true') Online
+            input#false(type='radio' name='type')
+            label.filters__radio.filters__option.filters__line(for='false') Offline
+    .filters__field
+        .filters__option-header.filters__option.filters__line
+            span Rating
+            img.filters__arrow(src='../static/images/icons/arrow.svg' alt='Arrow')
+        .filters__list.filters__dropdown#rating-list
+            input#1star(type='radio' name='rating')
+            label.filters__radio.filters__option.filters__line(for='1star')
+                | <img src='../static/images/icons/star-fill.svg' alt='Star' />
+                | <img src='../static/images/icons/star-empty.svg' alt='Star' />
+                | <img src='../static/images/icons/star-empty.svg' alt='Star' />
+                | <img src='../static/images/icons/star-empty.svg' alt='Star' />
+                | <img src='../static/images/icons/star-empty.svg' alt='Star' />
+            input#2star(type='radio' name='rating')
+            label.filters__radio.filters__option.filters__line(for='2star')
+                | <img src='../static/images/icons/star-fill.svg' alt='Star' />
+                | <img src='../static/images/icons/star-fill.svg' alt='Star' />
+                | <img src='../static/images/icons/star-empty.svg' alt='Star' />
+                | <img src='../static/images/icons/star-empty.svg' alt='Star' />
+                | <img src='../static/images/icons/star-empty.svg' alt='Star' />
+            input#3star(type='radio' name='rating')
+            label.filters__radio.filters__option.filters__line(for='3star')
+                | <img src='../static/images/icons/star-fill.svg' alt='Star' />
+                | <img src='../static/images/icons/star-fill.svg' alt='Star' />
+                | <img src='../static/images/icons/star-fill.svg' alt='Star' />
+                | <img src='../static/images/icons/star-empty.svg' alt='Star' />
+                | <img src='../static/images/icons/star-empty.svg' alt='Star' />
+            input#4star(type='radio' name='rating')
+            label.filters__radio.filters__option.filters__line(for='4star')
+                | <img src='../static/images/icons/star-fill.svg' alt='Star' />
+                | <img src='../static/images/icons/star-fill.svg' alt='Star' />
+                | <img src='../static/images/icons/star-fill.svg' alt='Star' />
+                | <img src='../static/images/icons/star-fill.svg' alt='Star' />
+                | <img src='../static/images/icons/star-empty.svg' alt='Star' />
+            input#5star(type='radio' name='rating')
+            label.filters__radio.filters__option.filters__line(for='5star')
+                | <img src='../static/images/icons/star-fill.svg' alt='Star' />
+                | <img src='../static/images/icons/star-fill.svg' alt='Star' />
+                | <img src='../static/images/icons/star-fill.svg' alt='Star' />
+                | <img src='../static/images/icons/star-fill.svg' alt='Star' />
+                | <img src='../static/images/icons/star-fill.svg' alt='Star' />
+    .filters__field
+        .filters__option-header.filters__option.filters__line
+            span Availability
+            img.filters__arrow(src='../static/images/icons/arrow.svg' alt='Arrow')
+        .filters__list.filters__dropdown#calendar-schedule
+            include ../snippets/calendar.pug
+    .filters__reset-filters
+        .filters__option.filters__line
+            span Reset Filters

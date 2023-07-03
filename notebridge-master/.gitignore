@@ -1,0 +1,6 @@
+/.idea/
+/sourcecode/notebridge/target/
+/sourcecode/notebridge/.idea/
+/sourcecode/notebridge/src/main/webapp/node_modules/
+/sourcecode/notebridge/src/main/webapp/static/css/
+/sourcecode/notebridge/src/main/webapp/static/images/examples/

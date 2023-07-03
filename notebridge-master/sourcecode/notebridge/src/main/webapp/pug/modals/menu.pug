@@ -1,0 +1,28 @@
+.menu.none
+    .menu__close
+        img(src='../static/images/icons/modal-close.svg' alt='')
+    .menu__options
+        .menu__option
+            a(href='/main') Home
+        .menu__option
+            a(href='/lessons') Explore
+        .menu__option
+            a(href='/map') Map
+        .menu__option
+            a(href='/contact') Contact
+        .menu__option
+            a(href='/main#help') Help
+        .menu__separator
+        .menu__option.non-authenticated.none
+            a(href='/login') Login
+        .menu__option.non-authenticated.none
+            a(href='/register') Register
+        .menu__option.authenticated.none
+            a(href='/profile') Profile
+        .menu__option.authenticated.none
+            a(data-modal-class="notifications") Notices
+        .menu__option.authenticated.none
+            a(data-modal-class="chat") Chat
+        .menu__option-exit.authenticated.none
+            a(href='/logout') Exit
+

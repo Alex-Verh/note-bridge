@@ -1,0 +1,280 @@
+@import "../css/bootstrap-grid.min.css";
+@import "../css/bootstrap-reboot.min.css";
+
+@import "../fonts/fonts.css";
+
+@import "static/scss/general/general";
+@import "samples/nav.scss";
+@import "samples/footer.scss";
+@import "samples/lesson-card.scss";
+
+
+.profile {
+  margin-bottom: 40px;
+  &__no-lessons {
+    font-weight: 800;
+    font-family: $font-header;
+    font-size: 20px;
+  }
+  &__image {
+    margin: 30px 0 10px 0;
+    width: 180px;
+    height: 220px;
+    border-radius: 20px;
+    box-shadow: $box-shadow;
+  }
+  &__info {
+    p {margin-bottom: 10px}
+    font-family: $font-text;
+  }
+  &__instrument {
+    font-family: $font-text;
+    background: $second-color;
+    color: $first-color;
+    border-radius: 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    text-align: center;
+    width: 125px;
+    font-size: 13px;
+    box-shadow: $box-shadow;
+    cursor: pointer;
+    margin: 2px 4px 0 0;
+  }
+  &__instrument:hover {
+    box-shadow: $box-shadow-hover;
+  }
+  &__title {
+    font-family: $font-header;
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+  }
+  &__name {
+    font-weight: 800;
+    font-size: 32px;
+  }
+  &__location {
+    font-weight: 300;
+    font-size: 14px;
+    img {
+      margin-left: 15px;
+      height: 14px;
+    }
+  }
+  &__status {
+    font-family: $font-text;
+    font-size: 20px;
+  }
+  &__rating {
+    margin-top: 20px;
+    font-family: $font-text;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    img {
+      height: 30px;
+    }
+    .view-rating {
+      color: #b9b9b9;
+      font-size: 16px;
+      cursor: pointer;
+      margin-left: 15px;
+      text-decoration: underline;
+    }
+    .view-rating:hover {
+      color: $second-color;
+    }
+  }
+  &__mark {
+    font-weight: 800;
+    font-size: 36px;
+    margin-right: 10px;
+  }
+  &__description {
+    margin: 20px 0;
+    width: 100%;
+    min-height: 180px;
+    background: rgba(245, 245, 245, 0.26);
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 16px;
+    font-family: $font-text;
+    font-weight: 600;
+    position: relative;
+  }
+  .description-edit {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+
+  .edit-description-input {
+    height: 130px;
+    width: 100%;
+    background-color: transparent;
+    margin: auto 0 0 0;
+    display: block;
+  }
+  .button {
+    font-weight: 400;
+    font-size: 16px;
+    width: 142px;
+    margin: 5px 5px 0 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      margin-left: 10px;
+    }
+  }
+  &__illustration {
+    width: 100%;
+    img {
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 992px) {
+    &__illustration {
+      display: none;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    &__image {
+      width: 140px;
+      height: 180px;
+    }
+    &__info, &__description, .button, .view-rating {
+      font-size: 12px;
+    }
+    &__instrument {
+      font-size: 10px;
+    }
+    &__name {
+      font-size: 24px;
+    }
+    &__location {
+      font-size: 12px;
+      img {
+        height: 12px;
+      }
+    }
+    &__mark, &__status {
+      font-size: 16px;
+    }
+    &__rating {
+      margin-top: 0;
+      a {
+        font-size: 10px;
+      }
+      img {
+        height: 16px;
+      }
+    }
+  }
+  @media screen and (max-width: 576px) {
+    &__image {
+      margin: 30px auto 10px auto;
+    }
+    &__info {
+      margin: 30px 0 10px 0;
+      font-size: 14px;
+      text-align: center;
+    }
+    &__buttons {
+      display: flex;
+      justify-content: center;
+    }
+  }
+  @media screen and (max-width: 330px) {
+    &__name {
+      font-size: 16px;
+    }
+  }
+}
+
+.profile-lessons {
+  margin-bottom: 150px;
+  &__video, &__add-lesson {
+    margin-top: 25px;
+    width: 250px;
+    height: 130px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  &__add-lesson {
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  &__add-lesson:hover, &__video:hover {
+    box-shadow: $box-shadow;
+  }
+
+  .lesson-card {
+    margin-top: 25px;
+    width: 250px;
+    height: 130px;
+    &__edit-bar {
+      left: 0;
+      right: 0;
+      margin: auto;
+      bottom: -20px;
+      position: absolute;
+      min-width: 110px;
+      width: 50%;
+      background: #666;
+      border-radius: 20px;
+      font-weight: 700;
+      font-size: 12px;
+      font-family: $font-text;
+      display: flex;
+      align-items: center;
+      height: 25px;
+      justify-content: center;
+      padding: 0 10px;
+    }
+    &__delete {
+      color: #FF8D80;
+      text-decoration: none;
+    }
+    &__delete:hover {
+      color: $second-color;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    &__video, .lesson-card {
+      width: 100%;
+      height: 130px;
+    }
+  }
+  @media screen and (max-width: 576px) {
+    &__video, .lesson-card, &__add-lesson {
+      width: 250px;
+      height: 130px;
+    }
+    .lesson-card {
+      &__title {
+        font-size: 18px;
+      }
+
+      &__description {
+        font-size: 12px;
+      }
+    }
+  }
+}
+
+//!TODO delete imports bellow (needed for displaying modals)
+@import "modals/view-review-modal.scss";
+@import "modals/add-lesson-modal.scss";
+@import "modals/edit-profile-modal.scss";
+@import "modals/view-availability-modal.scss";
+@import "modals/add-review-modal.scss";
+
+

@@ -1,0 +1,138 @@
+extends ../snippets/base
+
+block title
+    title NoteBridge - Help
+
+block css
+    link(href='../static/css/contact-page.css' rel='stylesheet')
+    link(href='../static/css/samples/chat.css' rel='stylesheet')
+    link(href='../static/css/samples/notifications.css' rel='stylesheet')
+    link(href='../static/css/samples/support-chat.css' rel='stylesheet')
+block scripts
+    script(type='module' charset='utf-8' src='../static/scripts/contact.js')
+    script(type='module' charset='utf-8' src='../static/scripts/support-chat.js')
+    script(src="https://smtpjs.com/v3/smtp.js")
+
+block modals
+    include ../snippets/nav.pug
+    +snippet({message: "contact"})
+
+    include ../snippets/chat.pug
+    include ../snippets/notifications.pug
+    include ../snippets/support-chat.pug
+
+block content
+    main.info
+        .container
+            .info__title
+                | Get In
+                span.highlighted  Touch with Us
+            .info__boxes
+                .row
+                    .col-md-12.col-lg-4
+                        .info-box
+                            .info-box__title
+                                span Address
+                                img(alt='Compass' src='../static/images/icons/compass-fill.svg')
+                            .info-box__separator
+                            .info-box__data
+                                p
+                                    strong Enschede
+                                    | , Nihujstraat 12
+                                p
+                                    strong Enschede
+                                    | , Nihujstraat 12
+                                p
+                                    strong Enschede
+                                    | , Nihujstraat 12
+                    .col-md-12.col-lg-4
+                        .info-box
+                            .info-box__title
+                                span Phone
+                                img(alt='Phone' src='../static/images/icons/telephone-fill.svg')
+                            .info-box__separator
+                            .info-box__data
+                                p
+                                    strong Netherlands
+                                    | , +(31) 62325151213
+                                p
+                                    strong Moldova
+                                    | , +(373) 692251515
+                                p
+                                    strong International
+                                    | , +(31) 3232303205
+                    .col-md-12.col-lg-4
+                        .info-box
+                            .info-box__title
+                                span Message
+                                img(alt='Cursor' src='../static/images/icons/cursor-fill.svg')
+                            .info-box__separator
+                            .info-box__data
+                                .info-box__row
+                                    img(alt='Mail' src='../static/images/icons/google.svg')
+                                    a(href='') notebridge@site.edu
+                                .info-box__row
+                                    img(alt='Twitter' src='../static/images/icons/twitter-blue.svg')
+                                    a(href='') www.twitter.com/notebridge
+                                .info-box__row
+                                    img(alt='Facebook' src='../static/images/icons/facebook-blue.svg')
+                                    a(href='') www.facebook.com/notebridge
+                                .info-box__row
+                                    img(alt='Linkedin' src='../static/images/icons/linkedin-blue.svg')
+                                    a(href='') www.linkedin.com/notebridge
+                                .info-box__row
+                                    img(alt='Instagram' src='../static/images/icons/instagram-purple.svg')
+                                    a(href='') www.instagram.com/notebridge
+                                .info-box__row
+                                    img(alt='Whatsapp' src='../static/images/icons/whatsapp-green.svg')
+                                    a(href='') www.whatsapp.com/notebridge
+            .info__middle-title
+                | Do you have
+                span.highlighted  questions
+                | ?
+                |                 Check our
+                a(href='#')
+                    span.highlighted  FAQ
+                |  section!
+    section.contact-form
+        .container
+            .row
+                .col-md-12.col-lg-7
+                    .contact-form__title
+                        | Still have a
+                        span.highlighted
+                            strong  question
+                        | ? Send us a
+                        span.highlighted
+                            strong  message!
+                    form#contact-form.contact-form__form(action ='/contact' method='POST')
+                        .row
+                            .col-sm-12.col-md-6
+                                .contact-form__field
+                                    label.contact-form__label(for='contactFullName') Full Name:
+                                    input#contactFullName.input(type='text' name='contactFullName' required='')
+                            .col-sm-12.col-md-6
+                                .contact-form__field
+                                    label.contact-form__label(for='contactEmail') Email
+                                    input#contactEmail.input(type='email' name='contactEmail' required='')
+                            .col-sm-12.col-md-6
+                                .contact-form__field
+                                    label.contact-form__label(for='contactTopic') Topic
+                                    input#contactTopic.input(type='text' name='contactTopic' required='')
+                            .col-sm-12.col-md-6
+                                .contact-form__field
+                                    label.contact-form__label Type
+                                    .choice
+                                        input#option-1(type='radio' name='contact_type' value='1' checked='')
+                                        input#option-2(type='radio' name='contact_type' value='0')
+                                        label.choice__option.choice__option-1(for='option-1')
+                                            span Technical
+                                        label.choice__option.choice__option-2(for='option-2')
+                                            span Feedback
+                            .col-12
+                                .contact-form__field
+                                    label.contact-form__label(for='contactMessage') Message:
+                                    textarea#contactMessage.input.textarea.contact-form__textarea(name='contactMessage' required='')
+                            input.button(type='submit' value='Send message')
+                .col
+                    img.contact-form__image(src='../static/images/contact-page-illustration.svg' alt='Illustration')

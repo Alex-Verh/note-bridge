@@ -1,0 +1,92 @@
+@import "../general/variables";
+
+
+.authenticated, .non-authenticated {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+.nav {
+  margin-top: 40px;
+  font-family: $font-header;
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+  &__logo {
+    font-weight: 700;
+    font-size: 32px;
+    cursor: pointer;
+  }
+  &__links {
+    a:hover {
+      color:$third-color;
+    }
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-weight: 400;
+    font-size: 24px;
+    height: 100%;
+  }
+  &__register {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    height: 100%;
+    .button {
+      font-weight: 400;
+      margin-inline: 10px;
+      width: 143px;
+    }
+
+  }
+  &__icon {
+    width: 50px;
+    height: 50px;
+    border: 2px solid $second-color;
+    margin-left: 20px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer ;
+  }
+  &__icon:hover {
+    box-shadow: $box-shadow-hover;
+  }
+  &__line {
+    border-bottom: 1.5px solid #000;
+    margin-top: 15px;
+  }
+  &__menu {
+    display: none;
+    cursor: pointer;
+    img {
+      width: 30px;
+    }
+  }
+  @media screen and (max-height: 800px) {
+    margin-top: 20px;
+    &__logo {
+      font-size: 20px;
+    }
+  }
+
+  @media screen and (max-width: 992px) {
+    &__links {
+      display: none;
+    }
+  }
+  @media screen and (max-width: 576px) {
+    &__register .button,  &__icon {
+      display: none;
+    }
+    &__menu {
+      display: inline-block;
+    }
+  }
+}

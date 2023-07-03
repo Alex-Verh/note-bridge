@@ -1,0 +1,181 @@
+@import "variables";
+.button {
+  background: $second-color;
+  border-radius: 20px;
+  padding: 5px 0;
+  font-weight: 700;
+  font-size: 18px;
+  font-family: $font-header;
+  box-shadow: $box-shadow;
+  justify-content: center;
+  display: inline-flex;
+  align-items: center;
+  text-align: center;
+  width: 174px;
+  cursor: pointer;
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+
+}
+.button:hover {
+  box-shadow: $box-shadow-hover;
+}
+.button:active {
+  box-shadow: none;
+}
+
+
+.highlighted {
+  color: $second-color;
+}
+
+.highlighted-first-color {
+  color: $first-color;
+}
+
+.input-field {
+  margin: 20px auto 0 auto;
+  width: 350px;
+  @media screen and (max-width: 400px) {
+    width: 300px;
+    .input {
+      width: 300px;
+    }
+  }
+  @media screen and (max-height: 700px) {
+    margin: 20px auto 0 auto;
+  }
+}
+
+.input-label {
+  color: $second-color;
+  font-family: $font-text;
+  font-size: 16px;
+  font-weight: 300;
+  display: block;
+  margin-left: 15px;
+  @media screen and (max-width: 400px) {
+    font-size: 12px;
+  }
+  @media screen and (max-height: 700px) {
+    font-size: 14px;
+  }
+}
+
+.textarea {
+  resize: none;
+}
+
+.input {
+  padding: 8px 17px ;
+  width: 350px;
+  box-shadow: $box-shadow;
+  background: $third-color;
+  border-radius: 20px;
+  border: 2px solid $second-color;
+  font-size: 20px;
+  font-family: $font-text;
+  cursor: pointer;
+}
+.input:hover {
+  box-shadow: $box-shadow-hover;
+}
+.input:focus {
+  outline: none;
+  border: 2px solid $first-color;
+}
+
+.input-error {
+  color: #ff0101;
+  font-family: $font-text;
+  font-size: 16px;
+  display: block;
+  text-align: center;
+  background: #370953;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 0 0 10px 10px;
+}
+
+.choice {
+  font-family: $font-header;
+  font-weight: 400;
+  font-size: 16px;
+  width: 350px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  box-shadow: $box-shadow;
+  border-radius: 20px;
+  margin: 25px auto;
+  background: $third-color;
+
+  &__option {
+    width: 50%;
+    height: 50px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  &__option-1 {
+    border-radius: 20px 0 0 20px;
+    border: 2px solid $second-color;
+  }
+  &__option-2 {
+    border-radius: 0 20px 20px 0;
+    border: 2px solid $second-color;
+  }
+  #option-1:checked:checked ~ &__option-1,
+  #option-2:checked:checked ~ &__option-2 {
+    background: $first-color;
+    color: #fff;
+  }
+  #level-1:checked:checked ~ &__option-1,
+  #level-2:checked:checked ~ &__option-2,
+  #level-3:checked:checked ~ &__option-3 {
+    background: $first-color;
+    color: #fff;
+  }
+
+  input[type=radio]{
+    display: none;
+  }
+}
+
+.profile-image {
+  border-radius: 50%;
+  overflow: hidden;
+  background: linear-gradient(163.21deg, #8A3EB7 10.93%, #F2B84A 80.68%);
+  border: 2px solid $second-color;
+  aspect-ratio: 1;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    transition: 0.5s ease-in-out;
+  }
+}
+.profile-image:hover > img {
+  transform: scale(1.1);
+}
+
+@media screen and (max-height: 700px) {
+  .input, .choice {
+    font-size: 14px;
+  }
+  .choice {
+    height: 40px;
+    &__option {
+      height: 40px;
+    }
+    }
+}

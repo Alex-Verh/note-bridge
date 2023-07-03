@@ -1,0 +1,103 @@
+@import "../general/variables";
+
+#edit-profile {
+  .input-field {
+    width: 100%;
+  }
+  .profile__checkbox {
+    height: 150px;
+    width: 150px;
+    padding: 10px;
+    position: absolute;
+    border: 1px solid $first-color;
+    left: 20px;
+    bottom: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    color: $first-color;
+    font-family: $font-text;
+    overflow-y: scroll;
+    .instrument {
+      text-transform: capitalize;
+    }
+    label {
+      cursor: pointer;
+      margin: 3px;
+      &:hover {
+        color: $second-color;
+      }
+    }
+    input[type="checkbox"] {
+      display: none;
+    }
+  }
+  .profile__image {
+    margin-inline: auto;
+    width: 70%;
+    height: 80%;
+  }
+  .add-instrument {
+    height: 30px;
+    cursor: pointer;
+  }
+  .profile__instruments {
+    margin-bottom: 5px;
+    display: block;
+  }
+  .profile__instrument {
+    background: $first-color;
+    color: $second-color;
+    position: relative;
+    height: 25px;
+    width: 120px;
+    display: inline-flex;
+    img {
+      bottom: -6px;
+      right: 0;
+      position: absolute;
+    }
+  }
+  .button {
+    width: 60%;
+    height: 25px;
+    font-size: 12px;
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .choice {
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  @media screen and (max-height: 700px) {
+    .profile__instrument {
+      font-size: 10px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .profile__image {
+      display: none ;
+    }
+    .button {
+      margin: 10px auto;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    .choice {
+      font-size: 10px;
+    }
+    .profile__instrument {
+      font-size: 8px;
+    }
+    .input-label {
+      font-size: 12px;
+    }
+    .profile__instruments {
+      img {
+        width: 10px;
+      }
+    }
+  }
+}

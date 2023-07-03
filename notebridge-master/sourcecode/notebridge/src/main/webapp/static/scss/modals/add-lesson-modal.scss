@@ -1,0 +1,68 @@
+@import "../general/variables";
+
+#add-lesson {
+    .input-field {
+        width: 100%;
+    }
+    .textarea {
+        height: 125px;
+    }
+    .choice {
+        width: 100%;
+        margin: 0;
+        &__option {
+            width: 33.3%;
+        }
+        &__option-2 {
+            border-radius: 0;
+            border: 2px solid $second-color;
+        }
+        &__option-3 {
+            border-radius: 0 20px 20px 0;
+            border: 2px solid $second-color;
+        }
+    }
+    .profile__instruments {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        input[type="radio"] {
+            display: none;
+        }
+        .selected-instrument {
+            color: $first-color;
+            background-color: $second-color;
+        }
+    }
+    .profile__instrument {
+        color: $second-color;
+        background-color: $first-color;
+    }
+    @media screen and (max-height: 560px) {
+        .textarea {
+            height: 80px;
+        }
+    }
+    @media screen and (max-width: 900px) {
+        .choice {
+            font-size: 12px;
+        }
+    }
+    @media screen and (max-width: 768px) {
+        .input-label {
+            font-size: 10px;
+        }
+        .textarea {
+            height: 70px;
+        }
+        .profile__instruments {
+            margin-top: 5px;
+        }
+        .choice {
+            height: 30px;
+            font-size: 8px;
+            &__option {
+                height: 30px;
+            }
+        }
+    }
+}

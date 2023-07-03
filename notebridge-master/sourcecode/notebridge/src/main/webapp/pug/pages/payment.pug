@@ -1,0 +1,75 @@
+extends ../snippets/base
+
+block title
+    title NoteBridge - Payment
+
+block css
+    link(href='../static/css/payment.css' rel='stylesheet')
+    link(href='../static/css/samples/chat.css' rel='stylesheet')
+    link(href='../static/css/samples/notifications.css' rel='stylesheet')
+    link(href='../static/css/samples/support-chat.css' rel='stylesheet')
+block scripts
+    script(type='module' charset='utf-8' src='../static/scripts/payment.js')
+    script(type='module' charset='utf-8' src='../static/scripts/support-chat.js')
+block modals
+    include ../snippets/nav.pug
+    +snippet({message: "home"})
+
+    include ../snippets/support-chat.pug
+    include ../snippets/chat.pug
+    include ../snippets/notifications.pug
+
+block content
+
+    main.payment
+        .container
+            .payment__background
+                .row
+                    .payment__title
+                        span.highlighted Payment
+                        |  Details
+                    .col-md-12.col-lg-6.d-flex.justify-content-center
+                        .payment-form
+                            .payment-form__field
+                                .payment-form__title Payment Method
+                                .choice
+                                    input#option-1(type='radio' name='is_ideal' value='1')
+                                    input#option-2(type='radio' name='is_ideal' value='0' checked='')
+                                    label.choice__option.choice__option-1(for='option-1')
+                                        span Credit Card
+                                    label.choice__option.choice__option-2(for='option-2')
+                                        span iDeal
+                            .payment-form__field
+                                label.payment-form__title(for='cardholder-name') Cardholder Name
+                                input#cardholder-name.input(type='text' name='cardholder-name' required='')
+                            .payment-form__field
+                                label.payment-form__title(for='card-number') Card Number
+                                input#card-number.input(type='text' name='card-number' required='')
+                            .payment-form__field-dbl
+                                .payment-form__field
+                                    label.payment-form__title(for='expiry-date') Expiry Date
+                                    input#expiry-date.input(type='text' name='expiry-date' required='')
+                                .payment-form__field
+                                    label.payment-form__title(for='cvc') CVC
+                                    input#cvc.input(type='password' name='cvc' required='')
+                    .col-md-12.col-lg-6.d-flex.justify-content-center
+                        .payment-details
+                            .payment-details__title Payment details
+                            .payment-details__row
+                                span.transparency Teacher
+                                span.teacher-name
+                            .payment-details__row
+                                span.transparency Lesson
+                                span.name-level
+                            .payment-details__row
+                                span.transparency Date
+                                span.date
+                            .payment-details__row
+                                span.transparency Time
+                                span.timeslot
+                            .payment-details__line
+                            .payment-details__row
+                                span.transparency Amount
+                                span.bold.amount
+                            div.button.pay-now Pay now
+

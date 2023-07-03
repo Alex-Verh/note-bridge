@@ -1,0 +1,95 @@
+@import "../general/variables";
+
+.notifications {
+  z-index: 9000;
+  position: absolute;
+  right: 0;
+  top: 85px;
+  width: 381px;
+  height: 472px;
+  background: #493A52;
+  border-radius: 15px;
+  color: $third-color;
+  padding: 15px;
+  font-family: $font-text;
+  &__container {
+    height: 380px;
+    overflow-y: scroll;
+  }
+  &__title {
+    font-weight: 800;
+    font-size: 30px;
+    font-family: $font-header;
+  }
+  .notification {
+    position: relative;
+    display: flex;
+    padding-bottom: 20px;
+    &__profile {
+      min-width: 50px;
+      height: 50px;
+      max-width: 50px;
+      display: inline-block;
+    }
+    &__text {
+      font-size: 14px;
+      margin-left: 10px;
+    }
+    &__time {
+      font-size: 12px;
+      color: #ABA3B0;
+      position: absolute;
+      bottom: 7px;
+      right: 12px;
+      &_action {
+        color: $second-color;
+      }
+    }
+    &__commands {
+      position: absolute;
+      width: 100%;
+      bottom: 0;
+      left: 50px;
+    }
+    &__command {
+      border-radius: 20px;
+      width: 60px;
+      height: 16px;
+      box-shadow: $box-shadow;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 12px;
+      text-transform: uppercase;
+      cursor: pointer;
+      color: #000;
+      margin-inline: 5px;
+      &_confirm {
+        background: #6CFE54;
+      }
+      &_reject {
+        background: #FB564C;
+      }
+      &:hover {
+        box-shadow: $box-shadow-hover;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .notifications {
+    width: 300px;
+  }
+  .notifications .notification__profile {
+    min-width: 30px;
+    height: 31px;
+    max-width: 30px;
+  }
+  .notifications .notification__text, .notifications .notification__time {
+    font-size: 10px;
+  }
+  .notifications__title {
+    font-size: 20px;
+  }
+}

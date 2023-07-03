@@ -1,0 +1,254 @@
+@import "../css/bootstrap-grid.min.css";
+@import "../css/bootstrap-reboot.min.css";
+
+@import "../fonts/fonts.css";
+
+@import "static/scss/general/general";
+@import "samples/nav.scss";
+@import "samples/footer.scss";
+
+
+.header {
+  margin-top: 50px;
+  text-align: center;
+  &__title {
+    margin-top: 20px;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 85px;
+    font-family: $font-header;
+    text-align: left;
+  }
+  &__text {
+    margin: 20px 0 30px 0;
+    font-family: $font-text;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: left;
+  }
+  &__image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    img {
+      width: 75%;
+      margin-top: 20px;
+    }
+  }
+  @media screen and (max-height: 700px) {
+    &__title {
+      margin-top: 10px;
+      font-size: 60px;
+      line-height: 65px;
+    }
+    &__text {
+      font-size: 18px;
+    }
+    &__image img {
+      margin-top: 10px;
+      width: 80%;
+    }
+  }
+  @media screen and (max-width: 700px) {
+    &__title{
+      font-size: 40px;
+    }
+    &__text{
+      font-size: 18px;
+    }
+    &__image img {
+      width: 60%;
+    }
+  }
+}
+
+.explore {
+  text-align: center;
+  margin-top: 87px;
+  .statistics{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    margin: 0 auto 60px auto;
+    user-select: none;
+    &__element {
+      flex: 1;
+      background-image: linear-gradient(to right, $second-color, $second-color);
+      background-size: 4px 30%;
+      background-position: right calc(50% - 15px);
+      background-repeat: no-repeat;
+    }
+    &__element:last-child {
+      background-image: none;
+    }
+    &__number{
+      font-weight: 700;
+      font-size: 80px;
+      color: $second-color;
+      -webkit-text-stroke: 1px #000;
+      line-height:50px;
+    }
+    &__label{
+      font-weight: 700;
+      font-size: 21px;
+      font-family: $font-header;
+    }
+    @media screen and (max-width: 800px) {
+      width: 350px;
+      font-size: 80px;
+      &__number{
+        font-size: 40px;
+        line-height:25px;
+      }
+      &__label{
+        font-size: 10px;
+      }
+    }
+    @media screen and (max-width: 350px) {
+      width: 250px;
+      &__number{
+        font-size: 30px;
+        line-height:25px;
+      }
+      &__label{
+        font-size: 10px;
+      }
+    }
+  }
+  &__image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      width: 70%;
+    }
+    @media screen and (max-width: 1000px) {
+      display: none;
+    }
+  }
+  &__title {
+    font-family: $font-header;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 73px;
+    text-align: left;
+  }
+  &__text {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 24px;
+    font-family: $font-text;
+    text-align: left;
+  }
+  &__map {
+    margin: 15px 0 30px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    img {
+      width: 45%;
+      cursor: pointer;
+      transition: 0.5s ease-in-out;
+    }
+    img:hover {
+      transform: scale(1.1);
+    }
+  }
+  @media screen and (max-height: 700px) {
+    &__title {
+      line-height: 65px;
+    }
+    &__text {
+      font-size: 18px;
+    }
+    &__map img:last-child {
+      display: none;
+    }
+    &__image img {
+      width: 90%;
+    }
+  }
+}
+
+.help {
+  margin-bottom: 120px;
+  margin-top: 160px;
+  &__title {
+    font-family: $font-header;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 73px;
+  }
+
+  &__questions {
+    margin-top: 70px;
+  }
+
+  &__question {
+    padding: 10px 20px 10px 20px;
+    width: 547px;
+    background: $third-color;
+    box-shadow: $box-shadow;
+    border-radius: 20px;
+    border: 2px solid $second-color;
+    font-size: 20px;
+    font-family: $font-text;
+    margin: 20px 0;
+    cursor: pointer;
+    font-weight: 700;
+  }
+  &__question:hover{
+    box-shadow: $box-shadow-hover;
+  }
+  &__answer {
+    font-weight: 400;
+  }
+  &__image {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    height: 100%;
+    img {
+      width: 70%;
+    }
+  }
+  @media screen and (max-height: 700px) {
+    margin-top: 100px;
+    &__title {
+      font-size: 40px;
+    }
+    &__questions {
+      margin-top: 20px;
+    }
+    &__question {
+      font-size: 15px;
+    }
+    &__image {
+      justify-content: right;
+    }
+    &__image img {
+      width: 80%;
+    }
+  }
+
+  @media screen and (max-width: 700px) {
+    &__title{
+      font-size: 40px;
+    }
+    &__question{
+      font-size: 15px;
+      width: 350px;
+    }
+  }
+  @media screen and (max-width: 350px) {
+    &__title{
+      font-size: 36px;
+    }
+    &__question{
+      font-size: 12px;
+      width: 250px;
+    }
+  }
+}

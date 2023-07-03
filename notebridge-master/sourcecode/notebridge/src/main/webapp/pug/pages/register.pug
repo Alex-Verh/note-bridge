@@ -1,0 +1,55 @@
+extends ../snippets/base
+
+block title
+    title NoteBridge - Register
+
+block css
+    link(href='../static/css/register.css' rel='stylesheet')
+    link(href='../static/css/samples/support-chat.css' rel='stylesheet')
+    link(href='../static/css/samples/chat.css' rel='stylesheet')
+
+block scripts
+    script(type='module' charset='utf-8' src='../static/scripts/register.js')
+    script(type='module' charset='utf-8' src='../static/scripts/support-chat.js')
+
+block modals
+    include ../snippets/nav.pug
+    include ../snippets/support-chat.pug
+    +snippet({message: "home"})
+
+block content
+    main.register
+        .container
+            .row
+                .col-md-12.col-lg-6
+                    .register__title
+                        | Become a
+                        span.highlighted  musician.
+                    form#registerForm.register__form(action='/register' method='POST')
+                        .input-field
+                            label.input-label(for='registerFullName') Full Name
+                            input#registerFullName.input(type='text' name='registerFullName' required='')
+                        .input-field
+                            label.input-label(for='registerEmail') Email address
+                            input#registerEmail.input(type='text' name='registerEmail' required='')
+                        .input-field
+                            label.input-label(for='registerPassword') Password
+                            input#registerPassword.input(type='password' name='registerPassword' required='')
+                        .input-field
+                            label.input-label(for='registerRepeatPassword') Repeat password
+                            input#registerRepeatPassword.input(type='password' name='registerRepeatPassword' required='')
+                        .choice
+                            input#option-1(type='radio' name='is_teacher' value='0' checked='')
+                            input#option-2(type='radio' name='is_teacher' value='1')
+                            label.choice__option.choice__option-1(for='option-1')
+                                span Student
+                            label.choice__option.choice__option-2(for='option-2')
+                                span Teacher
+                        input.button.register__btn(type='submit' value='Sign Up')
+                    .register__propose
+                        | Already have an account?
+                        a.highlighted-first-color(href='/login')  Login.
+                .col-md-0.col-lg-6
+                    .register__image
+                        img(src='../static/images/register-illustration-1.svg' alt='Illustration')
+

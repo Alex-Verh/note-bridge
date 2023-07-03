@@ -1,0 +1,35 @@
+mixin snippet(data)
+    nav.nav
+        .container
+            .row
+                .col-lg-4.col-6.d-flex.align-items-center
+                    .nav__logo
+                        a(href='/main')
+                            | Note
+                            span.highlighted -Bridge
+                .col-lg-4.d-none.d-lg-block
+                    .nav__links
+                        a(href='/main')
+                            span(class = (data.message === "home" ? 'highlighted' : '')) Home
+                        a(href='/lessons')
+                            span(class = (data.message === "lessons" ? 'highlighted' : '')) Lessons
+                        a(href='/map')
+                            span(class = (data.message === "map" ? 'highlighted' : '')) Map
+                .col-lg-4.col-6
+                    .nav__register
+                        .non-authenticated.none
+                            a(href='/login')
+                                .button(style='background:#F5F5F5') Log In
+                            a(href='/register')
+                                .button Sign Up
+                        .authenticated.none
+                            .nav__icon(data-modal-class="chat")
+                                img(src='../static/images/icons/chat.svg' alt='Messages')
+                            .nav__icon(data-modal-class="notifications")
+                                img(src='../static/images/icons/notifications.svg' alt='Notifications')
+                            .nav__icon.profile-image
+                                a(href='#')#profileLink
+                                    img(src='../static/images/examples/5.jpg' alt='Profile')
+                        .nav__menu(data-modal-class="menu")
+                            img(alt='Menu' src='../static/images/icons/menu.svg')
+            .nav__line

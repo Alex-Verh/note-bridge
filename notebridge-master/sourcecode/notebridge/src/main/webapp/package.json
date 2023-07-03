@@ -1,0 +1,27 @@
+{
+  "name": "notebridge1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm-run-all -p sass compile-scss watch-scss",
+    "sass": "node-sass -w static/scss/ -o static/css/ --recursive",
+    "watch-scss": "onchange 'static/scss/*.scss' -- npm run compile-scss",
+    "compile-scss": "node-sass static/scss/ -o static/css/",
+    "build:html": "pug pug/pages --out dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "all": "^0.0.0",
+    "node-sass": "^9.0.0",
+    "npm-run-all": "^4.1.5",
+    "ol": "^7.4.0",
+    "onchange": "*",
+    "sass": "^1.62.1"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5",
+    "pug": "^3.0.2"
+  }
+}

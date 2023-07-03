@@ -1,0 +1,67 @@
+@import "../profile.scss";
+@import "../general/variables";
+
+
+
+#view-profile .modal {
+  overflow: scroll;
+  min-height: 700px;
+  height: auto;
+}
+#view-profile .profile {
+  &__instrument {
+    background: $first-color;
+    color: $second-color;
+  }
+  .lessons-list {
+    overflow: scroll;
+    height: 140px;
+    @media screen and (min-height: 700px) {
+      height: 160px;
+    }
+  }
+  &__image {
+    margin-inline: auto;
+    width: 80%;
+    height: 45%;
+    @media screen and (min-height: 700px) {
+      height: 55%;
+    }
+  }
+  &__info {
+    width: 80%;
+    margin-inline: auto;
+  }
+  &__instruments {
+    margin-inline: 15px;
+  }
+  &__description {
+    background: rgba(242, 184, 74, 0.26);
+    margin-right: 10px;
+    min-height: 115px;
+    margin-bottom: 5px;
+  }
+  .button {
+    margin: 10px auto;
+    border: 1px solid $first-color;
+    display: flex;
+    justify-content: center;
+    @media screen and (min-height: 700px) {
+      margin-top: 30px;
+    }
+  }
+  .lesson-card {
+    background: $second-color;
+    display: inline-block;
+    margin: 5px 8px;
+    height: auto;
+    min-height: 120px;
+    &__title {
+      color: #000;
+    }
+    &__description {
+      font-size: 10px;
+    }
+
+  }
+}

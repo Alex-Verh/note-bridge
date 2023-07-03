@@ -1,0 +1,40 @@
+extends ../snippets/base
+
+block title
+    title NoteBridge - Map
+
+block css
+    link(href='../static/css/map.css' rel='stylesheet')
+    link(href='../static/css/samples/aside-filter.css' rel='stylesheet')
+    link(href='../static/css/samples/chat.css' rel='stylesheet')
+    link(href='../static/css/samples/notifications.css' rel='stylesheet')
+    link(href='../static/css/samples/support-chat.css' rel='stylesheet')
+    link(href='../static/css/profile.css' rel='stylesheet')
+    link(href='../node_modules/ol/ol.css' rel='stylesheet')
+
+block scripts
+    // Temporary scripts - to be subjected to change
+    script(type='module' charset='utf-8' src='../static/scripts/map.js')
+    script(src='../node_modules/ol/dist/ol.js')
+    script(type='module' charset='utf-8' src='../static/scripts/support-chat.js')
+
+block modals
+    include ../snippets/nav.pug
+    +snippet({message: "map"})
+
+    include ../snippets/filter.pug
+    include ../snippets/chat.pug
+    include ../snippets/notifications.pug
+    include ../modals/view-review-modal.pug
+    include ../snippets/support-chat.pug
+
+block content
+    main.map
+        .container
+            .row
+                .col-2
+                .col-10
+                    #js-map.map__js-map
+
+
+

@@ -1,0 +1,55 @@
+@import "../general/variables";
+
+.footer {
+  background: linear-gradient(93.64deg, #642986 -76.67%, #230C31 117.2%);  width: 100%;
+  padding: 30px 75px;
+  margin-top: auto;
+
+  &__links {
+    text-align: center;
+    a {
+      display: block;
+      color: $second-color;
+      font-weight: 400;
+      font-size: 20px;
+      font-family: $font-header;
+      text-decoration: none;
+    }
+    a:hover {
+      color: $third-color;
+    }
+  }
+
+  &__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    img {
+      width: 90%;
+      transition: 0.5s ease-in-out;
+      cursor: pointer;
+    }
+    img:hover {
+      transform: scale(1.1);
+    }
+    @media screen and (max-width: 768px) {
+      display: none;
+    }
+  }
+
+  &__social-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    img {
+      width: 33px;
+      margin: 10px 15px;
+      cursor: pointer;
+    }
+    img:hover {
+      transform: scale(1.1);
+    }
+  }
+}

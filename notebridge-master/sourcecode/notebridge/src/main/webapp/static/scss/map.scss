@@ -1,0 +1,44 @@
+@import "../css/bootstrap-grid.min.css";
+@import "../css/bootstrap-reboot.min.css";
+
+@import "../fonts/fonts.css";
+
+@import "static/scss/general/general";
+@import "samples/nav.scss";
+@import "samples/footer.scss";
+@import "samples/register.scss";
+@import "modals/view-profile-modal.scss";
+
+.map {
+  &__js-map {
+    margin: 25px auto 25px auto;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    cursor: grab;
+  }
+  &__js-map .ol-viewport {
+    border-radius: 20px;
+    border: 2px solid $first-color;
+  }
+
+}
+@media screen and (max-width: 910px) {
+  .map-filters {
+    display: none;
+  }
+  .map__js-map {
+    height: 400px;
+    width: 100%;
+  }
+}
+
+
+////!TODO delete imports bellow (needed for displaying modals)
+//@import "modals/edit-view-profile-modal.scss";
+//@import "modals/add-lesson-modal.scss";
+//@import "modals/view-lesson-modal.scss";
+//@import "modals/add-review-modal.scss";
+//@import "modals/view-review-modal.scss";
+
+
+

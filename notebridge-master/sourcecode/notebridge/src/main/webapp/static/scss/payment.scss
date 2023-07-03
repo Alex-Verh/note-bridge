@@ -1,0 +1,134 @@
+@import "../css/bootstrap-grid.min.css";
+@import "../css/bootstrap-reboot.min.css";
+
+@import "../fonts/fonts.css";
+
+@import "static/scss/general/general";
+@import "samples/nav.scss";
+@import "samples/footer.scss";
+
+.transparency {
+  opacity: 50%;
+}
+.bold {
+  font-weight: 800;
+}
+
+
+
+.payment {
+  .pay-now{
+    color: #000;
+  }
+  &__background {
+    background-color: rgba(0, 0, 0, 0.45);
+    border-radius: 32px;
+    width: 100%;
+    min-height: 650px;
+    margin: 20px 0 100px 0;
+    display: block;
+    padding: 80px 60px;
+  }
+  &__title {
+    text-align: center;
+    margin-bottom: 75px;
+    font-family: $font-header;
+    font-weight: 800;
+    font-size: 32px;
+  }
+}
+
+.payment-form {
+  width:80%;
+  &__field {
+    width: 100%;
+    margin: 10px auto;
+    display: inline-block;
+  }
+  &__field-dbl {
+    display: flex;
+  }
+  &__field-dbl &__field {
+    width: 45%;
+  }
+
+  &__title {
+    font-family: $font-text;
+    font-weight: 700;
+    font-size: 16px;
+    color: $third-color;
+    margin-left: 15px;
+  }
+  .input {
+    width: 100%;
+    height: 45px;
+    background-color: transparent;
+    border-color: $third-color;
+    color: $third-color;
+  }
+  .input:hover{
+    box-shadow: none;
+  }
+  .input:focus{
+    box-shadow: $box-shadow-hover;
+    border-color: $third-color;
+  }
+  .choice {
+    margin:0;
+    width: 100%;
+    height: 45px;
+    background-color: transparent;
+    &__option {
+      width: 50%;
+      height: 45px;
+      color: $third-color;
+    }
+    &__option-1 {
+      border: 2px solid $third-color;
+    }
+    &__option-2 {
+      border: 2px solid $third-color;
+    }
+  }
+}
+
+.payment-details {
+  width: 350px;
+  background-color: #370953;
+  border-radius: 30px;
+  color: $third-color;
+  font-family: $font-header;
+  padding: 16px 30px;
+  margin-top: 20px;
+  &__title {
+    font-weight: 700;
+    font-size: 18px;
+    margin: 16px 0 8px 0 ;
+  }
+  &__line {
+    width: 100%;
+    margin: 13px auto 35px auto;
+    border: 2px solid $third-color;
+  }
+  &__row {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+  }
+  .button {
+    width: 100%;
+    margin-top: 25px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .payment__background {
+    padding: 80px 5px;
+  }
+  .payment-details {
+    font-size: 12px;
+  }
+  .payment-form {
+    width: 100%;
+  }
+}

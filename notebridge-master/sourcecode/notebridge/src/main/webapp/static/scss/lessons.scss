@@ -1,0 +1,126 @@
+@import "../css/bootstrap-grid.min.css";
+@import "../css/bootstrap-reboot.min.css";
+
+@import "../fonts/fonts.css";
+
+@import "static/scss/general/general";
+@import "samples/nav.scss";
+@import "samples/footer.scss";
+@import "samples/lesson-card.scss";
+@import "modals/view-profile-modal.scss";
+
+.lessons {
+  margin-top: 20px;
+  margin-bottom: 60px;
+  min-height: 700px;
+  #load-more {
+    margin: 50px auto 50px auto;
+    display: block;
+    text-align: center;
+  }
+  &__no-lessons {
+    margin: auto 0 0 200px;
+    display: flex;
+    justify-content: center;
+    font-weight: 800;
+    font-family: $font-header;
+    width: 80%;
+    &_message {
+      width: 50%;
+    }
+    img {
+      width: 20%;
+    }
+    &_title {
+      font-size: 50px;
+    }
+    &_text {
+      font-size: 20px;
+    }
+  }
+}
+
+#loader {
+  margin: 0 auto 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+
+
+.lessons-row {
+  margin-top: 44px;
+  margin-left: 200px;
+  &__profile-info {
+    display: flex;
+    align-items: center;
+  }
+  &__name {
+    font-weight: 700;
+    font-size: 18px;
+    font-family: $font-text;
+    display: block;
+  }
+  &__stars {
+    display: block;
+    margin-bottom: 7px;
+    cursor: pointer;
+  }
+  &__location {
+    font-weight: 300;
+    font-size: 18px;
+    font-family: $font-header;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    img {
+      height: 18px;
+    }
+  }
+  &__location:hover {
+    color: $second-color;
+  }
+  &__credentials {
+    display: inline-block;
+    width: 50%;
+  }
+  &__profile-image {
+    margin: 0 0 0 auto;
+    display: inline-block;
+    width: 45%;
+  }
+
+  @media screen and (max-width: 1200px) {
+    &__name {
+      font-weight: 700;
+      font-size: 14px;
+      font-family: $font-text;
+      display: block;
+    }
+    &__stars {
+      img {
+        width: 10px;
+      }
+    }
+    &__location {
+      font-size: 14px;
+      img {
+        width: 14px;
+      }
+    }
+  }
+  @media screen and (max-width: 768px) {
+    &__profile-image {
+      height: 80px;
+      width: 80px;
+    }
+    }
+    @media screen and (max-width: 600px) {
+      margin-left: 0;
+    }
+}

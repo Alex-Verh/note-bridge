@@ -1,0 +1,80 @@
+extends ../snippets/base
+
+block title
+    title NoteBridge - Home
+
+block css
+    link(href='../static/css/main.css' rel='stylesheet')
+    link(href='../static/css/samples/chat.css' rel='stylesheet')
+    link(href='../static/css/samples/notifications.css' rel='stylesheet')
+    link(href='../static/css/samples/support-chat.css' rel='stylesheet')
+block scripts
+    script(type='module' charset='utf-8' src='../static/scripts/main.js')
+    script(type='module' charset='utf-8' src='../static/scripts/support-chat.js')
+
+block modals
+    include ../snippets/nav.pug
+    +snippet({message: "home"})
+
+    include ../snippets/chat.pug
+    include ../snippets/notifications.pug
+    include ../snippets/support-chat.pug
+
+block content
+    header.header
+        .container
+            .row
+                .col-md-12.col-lg-6
+                    .header__title
+                        span.highlighted Start
+                        |  Your
+                        span.highlighted  Journey
+                        |  In The World Of
+                        span.highlighted  Music
+                    .header__text
+                        | Discover your inner musician with the help of our dedicated teachers or become one of them!
+                    .button
+                        a(href='/lessons') Explore
+                .col-md-12.col-lg-6
+                    .header__image
+                        img(src='../static/images/main-illustration-1.svg' alt='Image')
+    main.explore
+        .container
+            .statistics
+            .row
+                .col-md-12.col-lg-6
+                    .explore__image
+                        img(src='../static/images/main-illustration-2.svg' alt='Image')
+                .col-md-12.col-lg-6
+                    .explore__title
+                        | Find Your Perfect Music
+                        span.highlighted  Teacher
+                    .explore__text
+                        | Navigate on our map and find teachers around you. Choose and start learning music right now!
+                    .explore__map
+                        img(src='../static/images/main-map-1.png' alt='Map1')
+                        img(src='../static/images/main-map-2.png' alt='Map2')
+                    .button
+                        a(href='/map') Search Now
+    section#help.help
+        .container
+            .row
+                .col-md-12.col-lg-6
+                    .help__title
+                        | Do you still have
+                        span.highlighted  questions?
+                    .help__questions
+                        .help__question How can I become a teacher?
+                            .help__answer.none To pursue a career as a teacher, you can access your profile and navigate to the editing options. Look for the option to become a teacher and proceed with caution, as this decision may not be reversible.
+                        .help__question How can I get more students?
+                            .help__answer.none To attract more students, you have the opportunity to personalize your profile, enhance its description, and accumulate positive reviews.
+                        .help__question How do I book a lesson?
+                            .help__answer.none To find a suitable teacher on the lessons page, you can initiate a search, either by location on the map or through other search criteria. Once you've found a potential teacher, you can select the desired lesson and then adjust your schedule to align with the available timeslots offered by the teacher.
+                        .help__question Can I have online lessons?
+                            .help__answer.none Absolutely, online lessons can be an option if the teacher has indicated their availability for online teaching. If the teacher has specified that they offer online lessons, you can proceed with scheduling based on their available timeslots. Alternatively, if you have specific conditions or preferences, you can directly contact the teacher to discuss and outline the details of your arrangement.
+                        .help__question How can I see available teachers in my region?
+                            .help__answer.none To discover teachers in your region, you have a couple of options. First, you can specify your region in your profile settings. This will allow the system to automatically detect and suggest teachers who are located nearby. Another option is to manually search for teachers on the map page, where you can explore the available teachers based on their geographic location. Additionally, you can utilize the filtering options on the lessons page to narrow down your search specifically to teachers in your region.
+                .col-md-12.col-lg-6
+                    .help__image
+                        img(src='../static/images/main-illustration-3.svg' alt='Image')
+

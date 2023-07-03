@@ -1,0 +1,33 @@
+@import "../css/bootstrap-grid.min.css";
+@import "../css/bootstrap-reboot.min.css";
+
+@import "../fonts/fonts.css";
+
+@import "static/scss/general/general";
+@import "samples/nav.scss";
+@import "samples/footer.scss";
+@import "samples/register.scss";
+
+.register {
+    margin-bottom: 180px;
+    &__title {
+        margin-top: 70px;
+    }
+
+    &__forgot-password {
+        text-align: right;
+        margin-top: 10px;
+        font-family: $font-text;
+        font-weight: 300;
+        font-size: 10px;
+        margin-bottom: 16px;
+        a {
+            text-decoration: none;
+            color: #000;
+        }
+        a:hover {
+            text-decoration: underline;
+            color: $second-color;
+        }
+    }
+}

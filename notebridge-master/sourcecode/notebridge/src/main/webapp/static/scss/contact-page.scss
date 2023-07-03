@@ -1,0 +1,184 @@
+@import "../css/bootstrap-grid.min.css";
+@import "../css/bootstrap-reboot.min.css";
+
+@import "../fonts/fonts.css";
+
+@import "static/scss/general/general";
+@import "samples/nav.scss";
+@import "samples/footer.scss";
+
+.info {
+  &__title {
+    margin-top: 65px;
+    text-align: center;
+    font-family: $font-header;
+    font-weight: 800;
+    font-size: 32px;
+    color: $third-color;
+  }
+  &__middle-title {
+    margin-top: 50px;
+    text-align: center;
+    font-family: $font-header;
+    font-weight: 800;
+    font-size: 32px;
+    color: $third-color;
+    a {
+      text-decoration: none;
+    }
+  }
+  &__boxes {
+    margin-top: 30px;
+  }
+}
+.info-box {
+  background: rgba(245, 245, 245, 0.1);
+  border-radius: 32px;
+  min-height: 380px;
+  width: 350px;
+  margin: 20px auto 0 auto;
+  padding: 25px;
+  &__title {
+    font-family: $font-header;
+    font-weight: 700;
+    font-size: 32px;
+    color: $third-color;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    img {
+      margin-left: 10px;
+      height: 32px;
+    }
+  }
+  &__separator {
+    margin: 0 auto 15px auto;
+    border: 1px solid $first-color;
+    width: 75%;
+  }
+  &__data {
+    color: $third-color;
+    font-family: $font-text;
+    font-size: 14px;
+  }
+  &__row {
+    font-family: $font-header;
+    margin-bottom: 20px;
+    img {
+      height: 25px;
+      width: 25px;
+      margin-right: 10px;
+      cursor:pointer;
+    }
+    a {
+      cursor: pointer;
+      text-decoration: none;
+      color: $third-color;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    width: 90%;
+    &__row {
+      img {
+        height: 15px;
+        width: 15px;
+      }
+    }
+  }
+  @media screen and (max-width: 992px) {
+    &__title {
+      font-size: 28px;
+    }
+    width: 350px;
+  }
+  @media screen and (max-width: 400px) {
+    &__title {
+      font-size: 24px;
+    }
+    width: 300px;
+  }
+  @media screen and (max-height: 700px) {
+    &__title {
+      font-size: 28px;
+    }
+    &__data {
+      font-size: 12px;
+    }
+    &__row {
+      font-size: 10px;
+    }
+    }
+}
+
+.contact-form {
+  margin-top: 150px;
+
+  &__title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-family: $font-header ;
+    color: $third-color;
+
+  }
+  &__field {
+    width: 90%;
+    margin: 0 auto;
+  }
+  &__label {
+    font-weight: 300;
+    font-size: 16px;
+    font-family: $font-text;
+    display: block;
+    margin: 17px 0 10px 15px;
+  }
+  .choice {
+    margin: 0;
+  }
+  .input, .choice {
+    width: 100%;
+  }
+  .choice__option {
+    width: 100%;
+  }
+  .button {
+    margin: 15px auto 70px auto;
+  }
+  &__image {
+    width: 100%;
+    img {
+      width: 100%;
+    }
+  }
+  &__textarea {
+    height: 170px;
+  }
+  @media screen and (max-height: 700px) {
+    &__image {
+      margin-top: 70px;
+    }
+  }
+  @media screen and (max-width: 992px) {
+     &__field {
+      width: 350px;
+    }
+    &__image {
+      display: none;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    &__title {
+      font-size: 16px;
+    }
+    &__field {
+      width: 270px;
+    }
+    &__image {
+      display: none;
+    }
+  }
+
+}

@@ -1,0 +1,612 @@
+1f10f23	Kevin	Fri Jun 30 23:04:23 2023 +0200	add changelog
+ac7d7f9	Alex-Verh	Fri Jun 30 23:04:23 2023 +0200	Merge remote-tracking branch 'origin/master'
+72bb063	Alex-Verh	Fri Jun 30 23:04:01 2023 +0200	Fixed notification sender display and add review removed inadequate footer
+70025e9	Kevin	Fri Jun 30 23:02:43 2023 +0200	update readme
+c2d71d6	John	Fri Jun 30 22:59:42 2023 +0200	Merge branch 'master' of https://gitlab.utwente.nl/s2958716/notebridge
+8486ea7	John	Fri Jun 30 22:59:30 2023 +0200	Small comments deletion
+c21b3ce	Alex-Verh	Fri Jun 30 22:58:58 2023 +0200	Merge remote-tracking branch 'origin/master'
+ebf81b2	Alex-Verh	Fri Jun 30 22:58:28 2023 +0200	Remove csrf token from reset password
+78c2de0	Kevin	Fri Jun 30 22:58:08 2023 +0200	put assignments in meetings folder
+85a4723	John	Fri Jun 30 22:56:46 2023 +0200	Merge branch 'master' of https://gitlab.utwente.nl/s2958716/notebridge
+7225964	John	Fri Jun 30 22:56:41 2023 +0200	Small fixes
+89bb60c	Chitoraga, D. (Daniel, Student B-TCS)	Fri Jun 30 22:41:43 2023 +0200	small fix ReviewDAOTest
+772da7f	Chitoraga, D. (Daniel, Student B-TCS)	Fri Jun 30 22:39:43 2023 +0200	Merge remote-tracking branch 'origin/master'
+70a1175	Chitoraga, D. (Daniel, Student B-TCS)	Fri Jun 30 22:39:26 2023 +0200	Fixed Tests
+4d3851a	Alex-Verh	Fri Jun 30 22:16:46 2023 +0200	Merge remote-tracking branch 'origin/master'
+4b2d466	Alex-Verh	Fri Jun 30 22:16:41 2023 +0200	Fixed register
+00686be	John	Fri Jun 30 22:11:17 2023 +0200	Merge branch 'master' of https://gitlab.utwente.nl/s2958716/notebridge
+2251b94	John	Fri Jun 30 22:10:50 2023 +0200	Added javadoc for general classes.
+db6813d	John	Fri Jun 30 22:02:13 2023 +0200	Added javadoc for all servlets
+4f5c703	Alex-Verh	Fri Jun 30 21:57:11 2023 +0200	Merge remote-tracking branch 'origin/master'
+4d37a64	Alex-Verh	Fri Jun 30 21:55:05 2023 +0200	Added comments for JavaScript
+a228fd1	John	Fri Jun 30 21:51:44 2023 +0200	Added javadoc for all resources classes
+b63d3cc	Kevin	Fri Jun 30 21:50:40 2023 +0200	add comments to resource test
+cee16d4	John	Fri Jun 30 21:30:31 2023 +0200	Removed redundant test
+d9b80c2	John	Fri Jun 30 21:29:42 2023 +0200	Added javadoc for all DAO classes
+884d7b3	John	Fri Jun 30 21:05:40 2023 +0200	Added javadoc for some DAO classes
+b3f0d39	Alex-Verh	Fri Jun 30 21:05:16 2023 +0200	Merge remote-tracking branch 'origin/master'
+13e468e	Alex-Verh	Fri Jun 30 21:05:10 2023 +0200	Fixed adding availability validation and selecting it
+ba5e8af	Kevin	Fri Jun 30 21:04:16 2023 +0200	tried fixing resource tests
+0d3fb6b	Kevin	Fri Jun 30 21:00:33 2023 +0200	organize documents and add documentation
+71e0f4a	John	Fri Jun 30 20:46:11 2023 +0200	Merge branch 'master' of https://gitlab.utwente.nl/s2958716/notebridge
+0a2e832	John	Fri Jun 30 20:45:54 2023 +0200	Some code cleaning
+33e29fb	Alex-Verh	Fri Jun 30 20:44:51 2023 +0200	Merge remote-tracking branch 'origin/master'
+8fc1d6c	Alex-Verh	Fri Jun 30 20:44:01 2023 +0200	Fixed schedule check
+1ab623a	John	Fri Jun 30 20:43:36 2023 +0200	Some javadoc
+492ce09	Chitoraga, D. (Daniel, Student B-TCS)	Fri Jun 30 20:35:23 2023 +0200	Merge remote-tracking branch 'origin/master'
+61b0950	Alex-Verh	Fri Jun 30 20:35:23 2023 +0200	Merge remote-tracking branch 'origin/master'
+f5096d9	John	Fri Jun 30 20:35:04 2023 +0200	Disabled global filter
+9d3e795	Alex-Verh	Fri Jun 30 20:33:51 2023 +0200	Merge remote-tracking branch 'origin/master'
+79e3940	John	Fri Jun 30 20:33:42 2023 +0200	Added back global filter.
+2f5b24c	Chitoraga, D. (Daniel, Student B-TCS)	Fri Jun 30 20:23:41 2023 +0200	Merge remote-tracking branch 'origin/master'
+1e208b0	Chitoraga, D. (Daniel, Student B-TCS)	Fri Jun 30 20:23:32 2023 +0200	Now users cant add more than 3 lessons
+371c7ba	Alex-Verh	Fri Jun 30 20:16:42 2023 +0200	Merge remote-tracking branch 'origin/master'
+f610bdc	Alex-Verh	Fri Jun 30 20:16:34 2023 +0200	Added booking being busy check
+eb2756a	John	Fri Jun 30 20:10:11 2023 +0200	Deleted GlobalFfilter.java
+3baa7c6	John	Fri Jun 30 20:03:33 2023 +0200	Merge branch 'master' of https://gitlab.utwente.nl/s2958716/notebridge
+21a4961	John	Fri Jun 30 20:03:27 2023 +0200	Added serving default-profile-image for non-existent profile pictures
+7db55b8	Chitoraga, D. (Daniel, Student B-TCS)	Fri Jun 30 19:54:55 2023 +0200	Merge remote-tracking branch 'origin/master'
+5e44daa	Chitoraga, D. (Daniel, Student B-TCS)	Fri Jun 30 19:53:58 2023 +0200	Fixed timeslot (i hate js)
+0f6a462	John	Fri Jun 30 19:41:38 2023 +0200	Merge branch 'master' of https://gitlab.utwente.nl/s2958716/notebridge
+c51eb04	John	Fri Jun 30 19:41:31 2023 +0200	Added default profile image.
+e561c14	Alex-Verh	Fri Jun 30 19:37:51 2023 +0200	Merge remote-tracking branch 'origin/master'
+a291875	Alex-Verh	Fri Jun 30 19:37:46 2023 +0200	Frontend fixes (первая волна)
+11199d1	John	Fri Jun 30 19:35:27 2023 +0200	Added open layers libraries and removed "Hosted build for development" links
+5dd3eb8	Alex-Verh	Fri Jun 30 18:55:15 2023 +0200	Merge remote-tracking branch 'origin/master'
+56b85d5	Alex-Verh	Fri Jun 30 18:55:10 2023 +0200	Added sending message from profile page
+6f7ded5	John	Fri Jun 30 18:53:29 2023 +0200	Merge branch 'master' of https://gitlab.utwente.nl/s2958716/notebridge
+8c92f45	John	Fri Jun 30 18:53:25 2023 +0200	Fixed message timestamp
+0513bb7	Alex-Verh	Fri Jun 30 18:50:59 2023 +0200	Merge remote-tracking branch 'origin/master'
+ed29eb3	Alex-Verh	Fri Jun 30 18:50:53 2023 +0200	Fixed chat fetch
+daf9df4	John	Fri Jun 30 18:39:44 2023 +0200	Merge branch 'master' of https://gitlab.utwente.nl/s2958716/notebridge
+a304474	John	Fri Jun 30 18:39:40 2023 +0200	Added class diagram final verison (by Mihai & Kevin)
+3a1d456	Alex-Verh	Fri Jun 30 18:37:59 2023 +0200	Merge remote-tracking branch 'origin/master'
+cdb08d1	Alex-Verh	Fri Jun 30 18:37:38 2023 +0200	Added sending messages
+b3e4e63	John	Fri Jun 30 18:32:14 2023 +0200	Small fixes + refactoring + message csrf added.
+1f176ea	Alex-Verh	Fri Jun 30 16:57:51 2023 +0200	Chat message display done
+7f1e414	John	Fri Jun 30 15:50:50 2023 +0200	Merge branch 'master' of https://gitlab.utwente.nl/s2958716/notebridge
+f875783	John	Fri Jun 30 15:50:19 2023 +0200	Pushing Kevin's fix for lesson search + small changes. Also fixed teacher search on map.
+8686b77	Chitoraga, D. (Daniel, Student B-TCS)	Fri Jun 30 14:59:24 2023 +0200	Merge remote-tracking branch 'origin/master'
+e238bfb	Chitoraga, D. (Daniel, Student B-TCS)	Fri Jun 30 14:59:11 2023 +0200	Updated validation
+655cb0f	Kevin	Fri Jun 30 14:48:09 2023 +0200	update sql schema and add database diagram
+91178b1	Alex-Verh	Fri Jun 30 14:37:52 2023 +0200	Merge remote-tracking branch 'origin/master'
+b7e60d1	Alex-Verh	Fri Jun 30 14:37:47 2023 +0200	Fixed chat pug
+f3d6b97	John	Fri Jun 30 14:37:27 2023 +0200	Participant/id api
+02a6c5c	John	Fri Jun 30 14:27:18 2023 +0200	Merge branch 'master' of https://gitlab.utwente.nl/s2958716/notebridge
+a3e8dde	John	Fri Jun 30 14:27:01 2023 +0200	Index.pb
+d3cd2c8	Alex-Verh	Fri Jun 30 12:21:46 2023 +0200	Merge remote-tracking branch 'origin/master'
+3559033	Alex-Verh	Fri Jun 30 12:21:37 2023 +0200	Added lessons booking on lesson/map pages and added simulation of the payment
+bc0ea92	Chitoraga, D. (Daniel, Student B-TCS)	Fri Jun 30 12:19:15 2023 +0200	Changed SMTP message structure
+00581dc	John	Fri Jun 30 01:25:19 2023 +0200	Merge branch 'master' of https://gitlab.utwente.nl/s2958716/notebridge
+5c74b7f	Alex-Verh	Fri Jun 30 01:24:53 2023 +0200	Fixed nav bar on register/login and added check for schedule being booked or not on client
+76cba71	John	Fri Jun 30 01:19:58 2023 +0200	Csrf validation for become-teacher
+6a043ca	John	Fri Jun 30 01:10:10 2023 +0200	Merge branch 'master' of https://gitlab.utwente.nl/s2958716/notebridge
+a024c85	Alex-Verh	Fri Jun 30 01:03:15 2023 +0200	Small fixes + csrf token for become a teacher
+9cd5263	John	Fri Jun 30 00:57:38 2023 +0200	Merge branch 'master' of https://gitlab.utwente.nl/s2958716/notebridge
+c42401f	John	Fri Jun 30 00:57:13 2023 +0200	Added csrf token validation for: - edit profile - edit description - upload image - upload video - teacher schedule - delete account - logout - book lesson - accept lesson finish / decline lesson finish - create notification - confirm notification - add review
+0ae6db3	Alex-Verh	Fri Jun 30 00:56:32 2023 +0200	Added CSRF token for adding review/notification/booking/logout/reset-password/upload image/upload video/ description/ delete account/ edit profile
+b17be04	John	Fri Jun 30 00:26:21 2023 +0200	Merge branch 'master' of https://gitlab.utwente.nl/s2958716/notebridge
+65855da	John	Fri Jun 30 00:26:16 2023 +0200	Lesson csrf validation.
+efc0546	Alex-Verh	Fri Jun 30 00:25:39 2023 +0200	Added CSRF token to delete Lesson, Review and Timeslot
+d0ce53e	John	Fri Jun 30 00:12:24 2023 +0200	Merge branch 'master' of https://gitlab.utwente.nl/s2958716/notebridge
+6b0ea10	John	Fri Jun 30 00:12:08 2023 +0200	Csrf token -> add lesson
+712cca9	Alex-Verh	Fri Jun 30 00:11:54 2023 +0200	Added CSRF token extraction and adding to create lesson form
+283c7b6	Alex-Verh	Fri Jun 30 00:03:02 2023 +0200	Added dynamic menu for mobile
+36f8e7d	Alex-Verh	Thu Jun 29 23:52:12 2023 +0200	Corrected time validation for schedule
+002f8f2	John	Thu Jun 29 23:37:53 2023 +0200	Moved csrf generation and added validation.
+a4bfb98	Alex-Verh	Thu Jun 29 23:11:04 2023 +0200	Merge remote-tracking branch 'origin/master'
+7769a6d	Alex-Verh	Thu Jun 29 23:10:56 2023 +0200	Added removing availability, and fixed selecting schedule on booking
+64137eb	John	Thu Jun 29 22:57:59 2023 +0200	Merge branch 'master' of https://gitlab.utwente.nl/s2958716/notebridge
+9274ec8	John	Thu Jun 29 22:57:53 2023 +0200	Fixed map search on invalid locations.
+84cb7eb	Kevin	Thu Jun 29 21:11:24 2023 +0200	update markdown and add presentation
+29d79a3	John	Thu Jun 29 21:32:23 2023 +0200	Merge branch 'master' of https://gitlab.utwente.nl/s2958716/notebridge
+8589b4e	Alex-Verh	Thu Jun 29 21:31:38 2023 +0200	Added map search by location
+df20489	John	Thu Jun 29 21:31:36 2023 +0200	Map fixes.
+72bf92b	Alex-Verh	Thu Jun 29 21:27:39 2023 +0200	Added upload image
+32aa262	Alex-Verh	Thu Jun 29 21:10:33 2023 +0200	Merge remote-tracking branch 'origin/master'
+f47e4bb	Alex-Verh	Thu Jun 29 21:10:17 2023 +0200	Added teacher schedule marking when available and when not
+7ed69f5	John	Thu Jun 29 21:03:23 2023 +0200	Merge branch 'master' of https://gitlab.utwente.nl/s2958716/notebridge
+3923c97	John	Thu Jun 29 21:03:19 2023 +0200	Modifed map search.
+f0e81dc	Kevin	Thu Jun 29 20:34:35 2023 +0200	reorder and add documents
+ed70b4d	Chitoraga, D. (Daniel, Student B-TCS)	Thu Jun 29 20:28:03 2023 +0200	Merge remote-tracking branch 'origin/master'
+5cea095	Chitoraga, D. (Daniel, Student B-TCS)	Thu Jun 29 20:27:46 2023 +0200	Fixed SMTP
+51f8c20	John	Thu Jun 29 20:10:50 2023 +0200	Merge branch 'master' of https://gitlab.utwente.nl/s2958716/notebridge
+b6222a8	John	Thu Jun 29 20:10:45 2023 +0200	Added video upload.
+08dd08f	Alex-Verh	Thu Jun 29 19:50:33 2023 +0200	Merge remote-tracking branch 'origin/master'
+69efbaf	Alex-Verh	Thu Jun 29 19:50:23 2023 +0200	Added schedule create for teacher
+e2099eb	Chitoraga, D. (Daniel, Student B-TCS)	Thu Jun 29 19:19:47 2023 +0200	Merge remote-tracking branch 'origin/master'
+d4875e5	Chitoraga, D. (Daniel, Student B-TCS)	Thu Jun 29 19:19:34 2023 +0200	Added email verification upon registration
+1b0e0ff	John	Thu Jun 29 18:18:43 2023 +0200	Added createTeacherSchedule api endpoint.
+1d5b94b	Alex-Verh	Thu Jun 29 17:29:43 2023 +0200	Added timeouts for booking
+5934208	Alex-Verh	Thu Jun 29 17:20:13 2023 +0200	Merge remote-tracking branch 'origin/master'
+f58897b	John	Thu Jun 29 17:19:58 2023 +0200	Added delete review api endpoint by lesson id and student id.
+4ba9c75	Alex-Verh	Thu Jun 29 17:19:55 2023 +0200	Fixed delete review
+6fd968a	Alex-Verh	Thu Jun 29 16:44:03 2023 +0200	Merge remote-tracking branch 'origin/master'
+a1c678b	Alex-Verh	Thu Jun 29 16:43:59 2023 +0200	Added delete review
+a859573	John	Thu Jun 29 16:42:08 2023 +0200	Added: - get count of reviews for lesson from student api endpoint - delete review api endpoint
+8877a40	John	Thu Jun 29 16:16:12 2023 +0200	Merge branch 'master' of https://gitlab.utwente.nl/s2958716/notebridge
+57b93fa	John	Thu Jun 29 16:15:30 2023 +0200	Fixes: - lesson search - review model structure - review create api
+5031acb	Alex-Verh	Thu Jun 29 16:15:13 2023 +0200	Added add review functionality
+b2899e0	Alex-Verh	Thu Jun 29 15:42:40 2023 +0200	Merge remote-tracking branch 'origin/master'
+d582c75	Alex-Verh	Thu Jun 29 15:42:31 2023 +0200	Fixed reset filters
+bf9cef0	Chitoraga, D. (Daniel, Student B-TCS)	Thu Jun 29 15:16:02 2023 +0200	small fix
+9ee0e56	Chitoraga, D. (Daniel, Student B-TCS)	Thu Jun 29 15:11:19 2023 +0200	Merge remote-tracking branch 'origin/master'
+703fafb	Chitoraga, D. (Daniel, Student B-TCS)	Thu Jun 29 15:11:02 2023 +0200	Implemented fully forgot password
+72fe282	Alex-Verh	Thu Jun 29 12:56:46 2023 +0200	Added filters reset
+6c5fd83	Alex-Verh	Thu Jun 29 12:07:35 2023 +0200	Merge remote-tracking branch 'origin/master'
+8f1bac8	Alex-Verh	Thu Jun 29 12:07:25 2023 +0200	Added add review modal generator for every lesson. Added client validation for it.
+824ecc2	mihaitulbure	Thu Jun 29 12:04:47 2023 +0200	Javadoc added for BookingDAO and InstrumentDAO. Test.html contains a chart for admin dashboard.
+ccc03d5	mihaitulbure	Thu Jun 22 16:00:15 2023 +0200	Some tests were updates.
+7adb1ae	Chitoraga, D. (Daniel, Student B-TCS)	Thu Jun 29 10:20:51 2023 +0200	Merge remote-tracking branch 'origin/master'
+2ef26ef	Chitoraga, D. (Daniel, Student B-TCS)	Thu Jun 29 10:20:26 2023 +0200	Almost implemented forgot password
+b971c9a	John	Thu Jun 29 01:15:57 2023 +0200	Fixed free schedule search.
+de36ef3	John	Thu Jun 29 00:59:29 2023 +0200	Merge branch 'master' of https://gitlab.utwente.nl/s2958716/notebridge
+d374b18	John	Thu Jun 29 00:59:25 2023 +0200	Fixed free schedules search.
+16a8a73	Alex-Verh	Thu Jun 29 00:58:52 2023 +0200	Added become a teacher and fixed booking fetches
+27832a6	Alex-Verh	Thu Jun 29 00:38:04 2023 +0200	Merge remote-tracking branch 'origin/master'
+bdb54e6	John	Thu Jun 29 00:37:25 2023 +0200	Merge branch 'master' of https://gitlab.utwente.nl/s2958716/notebridge
+8a36048	John	Thu Jun 29 00:36:05 2023 +0200	Small fixes (notifcations + booking).
+a601648	Alex-Verh	Thu Jun 29 00:35:30 2023 +0200	Added notification confirm/reject commands of bookings/lesson being taken
+b0f3086	Alex-Verh	Wed Jun 28 23:55:35 2023 +0200	Merge remote-tracking branch 'origin/master'
+4bb4738	Alex-Verh	Wed Jun 28 23:55:15 2023 +0200	Small fixes to booking
+4118d1d	John	Wed Jun 28 23:54:55 2023 +0200	Merge branch 'master' of https://gitlab.utwente.nl/s2958716/notebridge
+9383829	John	Wed Jun 28 23:54:50 2023 +0200	Small fixes
+03bd61e	Alex-Verh	Wed Jun 28 23:17:12 2023 +0200	Added booking of the lesson functionality
+e49d03d	Alex-Verh	Wed Jun 28 23:11:31 2023 +0200	Merge remote-tracking branch 'origin/master'
+7f3f387	John	Wed Jun 28 23:11:18 2023 +0200	Added booking from json request.
+1b49a17	Alex-Verh	Wed Jun 28 21:21:14 2023 +0200	Merge remote-tracking branch 'origin/master'
+371209c	Alex-Verh	Wed Jun 28 21:18:29 2023 +0200	Added select teacher availability modal
+5b403ff	John	Wed Jun 28 21:16:10 2023 +0200	Changed notification model.
+5d2f0cf	John	Wed Jun 28 20:02:58 2023 +0200	Merge branch 'master' of https://gitlab.utwente.nl/s2958716/notebridge
+cba9d1d	John	Wed Jun 28 20:02:39 2023 +0200	Added become-teacher and new create notification api.
+459b22c	Alex-Verh	Wed Jun 28 20:02:10 2023 +0200	Added sending notification of booking request
+34832cb	John	Wed Jun 28 19:05:17 2023 +0200	Merge branch 'master' of https://gitlab.utwente.nl/s2958716/notebridge
+5889f2e	Alex-Verh	Wed Jun 28 19:04:54 2023 +0200	Merge remote-tracking branch 'origin/master'
+109c5fb	Alex-Verh	Wed Jun 28 19:04:33 2023 +0200	Small fixes
+fd7dbfc	John	Wed Jun 28 19:04:20 2023 +0200	Fixed profile pictures upload.
+11a37e3	Alex-Verh	Wed Jun 28 18:38:29 2023 +0200	Added notification modal with dynamic message
+fad302d	John	Wed Jun 28 18:14:56 2023 +0200	Merge branch 'master' of https://gitlab.utwente.nl/s2958716/notebridge
+684ebc0	John	Wed Jun 28 18:14:26 2023 +0200	Added file media upload and view.
+53b925b	Alex-Verh	Wed Jun 28 18:13:28 2023 +0200	Added profile image validation and fetching
+4d13932	Alex-Verh	Wed Jun 28 18:04:23 2023 +0200	Merge remote-tracking branch 'origin/master'
+185d16a	Alex-Verh	Wed Jun 28 17:59:54 2023 +0200	Added addlesson client validation
+c225c62	Alex-Verh	Wed Jun 28 16:09:10 2023 +0200	Added confirm modal for deleting profile/lesson
+7a31fe3	John	Wed Jun 28 15:33:04 2023 +0200	Merge branch 'master' of https://gitlab.utwente.nl/s2958716/notebridge
+5c1a73f	John	Wed Jun 28 15:32:46 2023 +0200	Added userDescription PUT endpoint.
+847c108	Alex-Verh	Wed Jun 28 15:31:53 2023 +0200	Added profile description fetching and adding review button for students that have taken lessons
+8559005	Alex-Verh	Wed Jun 28 10:34:45 2023 +0200	Merge remote-tracking branch 'origin/master'
+35eda3c	Alex-Verh	Wed Jun 28 10:34:38 2023 +0200	Added profile description edit
+5ea4d4e	Chitoraga, D. (Daniel, Student B-TCS)	Wed Jun 28 10:25:16 2023 +0200	Merge remote-tracking branch 'origin/master'
+f26a9d1	Chitoraga, D. (Daniel, Student B-TCS)	Wed Jun 28 10:24:21 2023 +0200	Changed the SMTP to be on the backend side
+1c5bf47	Alex-Verh	Wed Jun 28 09:50:51 2023 +0200	Fixed instrument fetching on add lesson and edit profile (for user error protection)
+008f5a8	John	Wed Jun 28 01:41:03 2023 +0200	Added page reload after creating lesson.
+f7a7966	John	Wed Jun 28 01:34:26 2023 +0200	New: teachers can create lessons on their profile.
+cdae879	Alex-Verh	Wed Jun 28 01:07:25 2023 +0200	Merge remote-tracking branch 'origin/master'
+93ce1f8	Alex-Verh	Wed Jun 28 01:07:21 2023 +0200	Fixed add lesson modal checked instrument bug
+ef3356a	John	Wed Jun 28 01:07:13 2023 +0200	Merge branch 'master' of https://gitlab.utwente.nl/s2958716/notebridge
+a3cf777	John	Wed Jun 28 01:07:09 2023 +0200	Lesson fixes.
+7f0aa34	Alex-Verh	Wed Jun 28 00:34:55 2023 +0200	Added delete lesson fetch
+ffd545f	Alex-Verh	Wed Jun 28 00:16:01 2023 +0200	Merge remote-tracking branch 'origin/master'
+0e4945d	Alex-Verh	Wed Jun 28 00:15:48 2023 +0200	Added profile description edit
+38e29b0	John	Wed Jun 28 00:14:22 2023 +0200	Added delete account option.
+bf59e49	John	Tue Jun 27 23:32:03 2023 +0200	Merge branch 'master' of https://gitlab.utwente.nl/s2958716/notebridge
+9d23b07	John	Tue Jun 27 23:31:49 2023 +0200	Teacerh/users resource fixes.
+b189fc7	Alex-Verh	Tue Jun 27 23:31:16 2023 +0200	Merge remote-tracking branch 'origin/master'
+bef1f19	Alex-Verh	Tue Jun 27 23:31:10 2023 +0200	Added add lesson modal to send data
+a5dc4ee	John	Tue Jun 27 23:14:36 2023 +0200	Merge branch 'master' of https://gitlab.utwente.nl/s2958716/notebridge
+a3e9717	John	Tue Jun 27 23:14:31 2023 +0200	Fixed update users/teachers.
+3425ae3	Alex-Verh	Tue Jun 27 22:55:35 2023 +0200	Fixed nav image/fetch to edit profile and some frontend
+2334eba	John	Tue Jun 27 22:39:20 2023 +0200	Fixed user update.
+25fd547	John	Tue Jun 27 22:02:35 2023 +0200	Merge branch 'master' of https://gitlab.utwente.nl/s2958716/notebridge
+1fa6239	John	Tue Jun 27 22:02:12 2023 +0200	Teacher updateDetails instruments added.
+c54eb6a	Alex-Verh	Tue Jun 27 21:53:44 2023 +0200	Merge remote-tracking branch 'origin/master'
+6da0623	Alex-Verh	Tue Jun 27 21:53:37 2023 +0200	Added submit PATCH and client validation for edit profile
+cbb0722	John	Tue Jun 27 21:24:38 2023 +0200	Merge branch 'master' of https://gitlab.utwente.nl/s2958716/notebridge
+91ecf65	John	Tue Jun 27 21:24:34 2023 +0200	Added functions for updating user/teacher data from html forms.
+9f38691	Alex-Verh	Tue Jun 27 21:14:39 2023 +0200	Merge remote-tracking branch 'origin/master'
+42b6922	Alex-Verh	Tue Jun 27 21:14:32 2023 +0200	Added profile edit modal with instruments choice
+4c931c4	John	Tue Jun 27 17:18:11 2023 +0200	Added country search to lessons search.
+f8b882a	Alex-Verh	Tue Jun 27 16:57:43 2023 +0200	Merge remote-tracking branch 'origin/master'
+c97f06f	Alex-Verh	Tue Jun 27 16:57:38 2023 +0200	Small visual fix
+d54c358	John	Tue Jun 27 16:40:54 2023 +0200	Merge branch 'master' of https://gitlab.utwente.nl/s2958716/notebridge
+ed16dc7	John	Tue Jun 27 16:35:52 2023 +0200	Modificaations and fixes: - Modified map.js markers. - Moved db variables and pepper to environment variables. - Fixed CSRF token.
+734f980	Alex-Verh	Tue Jun 27 15:59:49 2023 +0200	Merge remote-tracking branch 'origin/master'
+8c9ae74	Alex-Verh	Tue Jun 27 15:59:41 2023 +0200	Changed stats from countries to cities
+17a368f	Alex-Verh	Tue Jun 27 15:54:33 2023 +0200	Added edit profile modal generator
+169fae6	Kevin	Tue Jun 27 14:45:03 2023 +0200	update api md + finished resource tests + fixed one bug
+8602b03	Alex-Verh	Mon Jun 26 23:07:12 2023 +0200	Added delete lesson/review/timeslot
+0d8186d	Alex-Verh	Mon Jun 26 21:49:51 2023 +0200	Profile fetching fixed
+9f82ab4	Alex-Verh	Mon Jun 26 20:16:53 2023 +0200	Small fixes on frontend
+280633e	John	Mon Jun 26 13:44:16 2023 +0200	Merge branch 'master' of https://gitlab.utwente.nl/s2958716/notebridge
+726d872	John	Mon Jun 26 13:40:57 2023 +0200	Index.pb
+7c2fa06	Chitoraga, D. (Daniel, Student B-TCS)	Sun Jun 25 12:50:28 2023 +0200	Added SMTP for contact form
+17fe7a1	John	Fri Jun 23 13:36:09 2023 +0200	Added search timeout when looking for lessons (Commit by Alexandru Verhovetchi from Ion Tulei's laptop :))
+6a81bbf	Alex-Verh	Fri Jun 23 12:24:17 2023 +0200	Small fix of profile modal style
+d02b461	Alex-Verh	Fri Jun 23 12:18:37 2023 +0200	Merge remote-tracking branch 'origin/master'
+d4540f5	Alex-Verh	Fri Jun 23 12:18:26 2023 +0200	Fixed profile modals display
+86e682d	John	Fri Jun 23 12:16:50 2023 +0200	Merge branch 'master' of https://gitlab.utwente.nl/s2958716/notebridge
+94e7c08	John	Fri Jun 23 12:16:41 2023 +0200	Teacher search hotfix.
+89c858e	Chitoraga, D. (Daniel, Student B-TCS)	Fri Jun 23 12:10:08 2023 +0200	Fixed position Support chat
+d6ee1b0	Alex-Verh	Fri Jun 23 12:00:29 2023 +0200	Added map filtering with map refresh on filters
+7b80d2b	Alex-Verh	Fri Jun 23 11:47:21 2023 +0200	Fixed lessons page after great commits by my colleagues
+aa9aab4	Kevin	Fri Jun 23 11:18:42 2023 +0200	Merge remote-tracking branch 'origin/master'
+ed36cf1	John	Fri Jun 23 11:07:16 2023 +0200	Map hotfix.
+e5b2581	Kevin	Fri Jun 23 10:47:02 2023 +0200	fix string type
+75e025d	Chitoraga, D. (Daniel, Student B-TCS)	Fri Jun 23 10:45:47 2023 +0200	Merge remote-tracking branch 'origin/master'
+f6ee455	Chitoraga, D. (Daniel, Student B-TCS)	Fri Jun 23 10:43:47 2023 +0200	Implemented Support Chat
+494c2c0	Kevin	Fri Jun 23 10:37:32 2023 +0200	change like to ilike
+d1e8769	Kevin	Fri Jun 23 10:32:13 2023 +0200	change type to string
+8cf288d	Kevin	Fri Jun 23 10:29:14 2023 +0200	resolve merge?
+6dc9553	John	Fri Jun 23 10:18:09 2023 +0200	Fixed isOnline on API users/profile.
+d88c4c6	Kevin	Fri Jun 23 10:16:46 2023 +0200	change offset back
+79ec01b	Kevin	Fri Jun 23 10:12:06 2023 +0200	improve lesson search performance
+e49d818	John	Fri Jun 23 10:01:35 2023 +0200	Merge branch 'master' of https://gitlab.utwente.nl/s2958716/notebridge
+bef3d6c	John	Fri Jun 23 10:01:30 2023 +0200	Fixed search.
+16bab9d	Alex-Verh	Fri Jun 23 09:34:42 2023 +0200	Fixed teacher @GET /search java method
+cb9e5a4	Alex-Verh	Fri Jun 23 09:29:47 2023 +0200	Added map filtering
+840fe54	Alex-Verh	Fri Jun 23 09:13:50 2023 +0200	Fixed teacher profile modal
+ddb9c7d	John	Fri Jun 23 01:32:50 2023 +0200	Merge branch 'master' of https://gitlab.utwente.nl/s2958716/notebridge
+8db1964	John	Fri Jun 23 01:32:45 2023 +0200	Added load of profile modal on mapIcon click. Made the API GET requests return null objects when nothing found.
+c2dec97	Alex-Verh	Fri Jun 23 00:11:27 2023 +0200	Merge remote-tracking branch 'origin/master'
+1d29ea0	Alex-Verh	Fri Jun 23 00:11:19 2023 +0200	Added filtering by availability
+266e23b	John	Thu Jun 22 22:48:19 2023 +0200	Merge branch 'master' of https://gitlab.utwente.nl/s2958716/notebridge
+081d3ef	John	Thu Jun 22 22:47:20 2023 +0200	Refactoring the map. Added clusters.
+063ec7d	Alex-Verh	Thu Jun 22 22:34:01 2023 +0200	Changed from infinite scroll to load more button Added profile-modal generator by id
+58dabd7	Kevin	Thu Jun 22 20:57:55 2023 +0200	Merge remote-tracking branch 'origin/master'
+0ca5cb0	Kevin	Thu Jun 22 20:57:48 2023 +0200	make location search ignore case
+9617f33	Alex-Verh	Thu Jun 22 20:19:21 2023 +0200	Added relative date to current time converter function
+64aecd8	Alex-Verh	Thu Jun 22 20:17:09 2023 +0200	Added notifications display for current user
+a572db2	Alex-Verh	Thu Jun 22 19:45:09 2023 +0200	Merge remote-tracking branch 'origin/master'
+df46be3	John	Thu Jun 22 19:41:23 2023 +0200	Fixed notification API.
+c5404bf	John	Thu Jun 22 18:34:22 2023 +0200	Merge branch 'master' of https://gitlab.utwente.nl/s2958716/notebridge
+cc82b0f	John	Thu Jun 22 18:22:04 2023 +0200	Refactoring the map (work in progress).
+bd601af	John	Thu Jun 22 18:21:38 2023 +0200	Added lesson count for student.
+6909974	Alex-Verh	Thu Jun 22 18:13:21 2023 +0200	Separated every teacher by row
+76f79c8	Alex-Verh	Thu Jun 22 17:39:29 2023 +0200	Merge remote-tracking branch 'origin/master'
+f084b72	Alex-Verh	Thu Jun 22 17:39:23 2023 +0200	Fixed filter and started notifications retrieval
+3186188	Kevin	Thu Jun 22 17:17:35 2023 +0200	change type true false to online offline
+05a1815	Kevin	Thu Jun 22 16:44:46 2023 +0200	add group lessons by teacher for search lessons
+2b5b856	Alex-Verh	Thu Jun 22 15:59:05 2023 +0200	Merge remote-tracking branch 'origin/master'
+c244032	Kevin	Thu Jun 22 15:58:57 2023 +0200	fix booking test
+b0401c0	Kevin	Thu Jun 22 15:51:57 2023 +0200	change lesson rating to stars and rename query parameters
+1d3c0c4	Alex-Verh	Thu Jun 22 14:46:17 2023 +0200	Merge remote-tracking branch 'origin/master'
+ebc7c46	Alex-Verh	Thu Jun 22 14:46:12 2023 +0200	Added lessons retrieval according to filters and created special fetch request for it
+8e76290	Alex-Verh	Thu Jun 22 14:04:56 2023 +0200	Added instruments js generator and filter parameters retrieving when searching for lessons
+fe95cb4	Kevin	Thu Jun 22 12:01:33 2023 +0200	updated tests for new db
+197e80e	Kevin	Thu Jun 22 11:59:58 2023 +0200	fix lesson search again lol
+f3671ec	Kevin	Thu Jun 22 11:46:11 2023 +0200	update lesson search
+af0f14c	Kevin	Thu Jun 22 11:20:48 2023 +0200	fix booking test for now
+43ef1e3	Kevin	Thu Jun 22 11:19:19 2023 +0200	add resource test + stuff necessary for test
+e4e693a	Kevin	Thu Jun 22 09:45:29 2023 +0200	add new api for testing + updated api markdown
+96d7f2a	John	Thu Jun 22 03:30:30 2023 +0200	Merge branch 'master' of https://gitlab.utwente.nl/s2958716/notebridge
+0e5b6cf	John	Thu Jun 22 03:30:25 2023 +0200	Fixed getLessonsByUserId().
+883ae23	Alex-Verh	Thu Jun 22 00:03:01 2023 +0200	Added intersection observer for infinite scrolling
+2d6c824	Alex-Verh	Wed Jun 21 23:56:33 2023 +0200	Added student lessons display, reviews counter
+588a696	Alex-Verh	Wed Jun 21 23:04:44 2023 +0200	Merge remote-tracking branch 'origin/master'
+8030925	Alex-Verh	Wed Jun 21 23:03:42 2023 +0200	Added teacher schedule display
+b94e2b6	John	Wed Jun 21 22:35:07 2023 +0200	Merge branch 'master' of https://gitlab.utwente.nl/s2958716/notebridge
+f5573bf	John	Wed Jun 21 22:35:03 2023 +0200	Added sorting to getTeacherScheduleByTeacher().
+89a17f4	Alex-Verh	Wed Jun 21 21:12:34 2023 +0200	Merge remote-tracking branch 'origin/master'
+10c7333	Alex-Verh	Wed Jun 21 21:05:56 2023 +0200	Added lesson retrieval and display on teacher page
+0d814a5	John	Wed Jun 21 21:03:10 2023 +0200	Fixed teacher creation.
+180188f	Alex-Verh	Wed Jun 21 20:15:00 2023 +0200	Merge remote-tracking branch 'origin/master'
+177fdf8	John	Wed Jun 21 19:57:46 2023 +0200	Merge branch 'master' of https://gitlab.utwente.nl/s2958716/notebridge
+2f429d6	John	Wed Jun 21 19:57:41 2023 +0200	Lesson and TeacherSchedule fixes.
+6bf18a2	Chitoraga, D. (Daniel, Student B-TCS)	Wed Jun 21 19:33:45 2023 +0200	Implemented a part of TeacherDAOTest
+4ba8cb7	Alex-Verh	Wed Jun 21 19:20:26 2023 +0200	Review retrieval from database and display on teacher profile
+b35026d	Chitoraga, D. (Daniel, Student B-TCS)	Wed Jun 21 18:43:54 2023 +0200	Small fix
+8ac6e23	Chitoraga, D. (Daniel, Student B-TCS)	Wed Jun 21 18:42:00 2023 +0200	Merge remote-tracking branch 'origin/master'
+265c029	Chitoraga, D. (Daniel, Student B-TCS)	Wed Jun 21 18:41:09 2023 +0200	Updated DAO/Models/Tests according to new DB
+2ffd6ad	John	Wed Jun 21 18:39:30 2023 +0200	Review API modified.
+12d90c9	John	Wed Jun 21 18:11:35 2023 +0200	Merge branch 'master' of https://gitlab.utwente.nl/s2958716/notebridge
+7388f58	John	Wed Jun 21 18:10:50 2023 +0200	Index.pb updated.
+1fd487a	Kevin	Wed Jun 21 16:21:04 2023 +0200	change teacher schedule
+c3e35ad	Kevin	Wed Jun 21 16:20:50 2023 +0200	Merge remote-tracking branch 'origin/master'
+774cdfe	Kevin	Wed Jun 21 15:57:43 2023 +0200	change notification
+b832970	Alex-Verh	Wed Jun 21 15:28:24 2023 +0200	Merge remote-tracking branch 'origin/master'
+4eb0bab	Alex-Verh	Wed Jun 21 15:28:19 2023 +0200	Added map icons and dictionary for their paths
+161c8ef	Chitoraga, D. (Daniel, Student B-TCS)	Wed Jun 21 15:24:48 2023 +0200	Implemented ReviewDAOTest
+582d580	Chitoraga, D. (Daniel, Student B-TCS)	Wed Jun 21 15:24:31 2023 +0200	Fixed ReviewDAO/ReviewsResource + added new methods
+f9222e9	Chitoraga, D. (Daniel, Student B-TCS)	Wed Jun 21 14:33:08 2023 +0200	Implemented SkillDAOTest
+e4f6765	Chitoraga, D. (Daniel, Student B-TCS)	Wed Jun 21 14:32:22 2023 +0200	Updated TeacherInstrumentsDAOTest according to new DB
+4cd00d6	Chitoraga, D. (Daniel, Student B-TCS)	Wed Jun 21 14:22:24 2023 +0200	Updated UserDAOTest according to new DB
+dd52790	Chitoraga, D. (Daniel, Student B-TCS)	Wed Jun 21 14:22:13 2023 +0200	Added setOnline/setOffline for UserDAO
+18f831c	Kevin	Wed Jun 21 12:45:32 2023 +0200	Merge remote-tracking branch 'origin/master'
+ccabc55	Kevin	Wed Jun 21 12:45:18 2023 +0200	add user resource test using client builder + necessary dependency
+d9d36f2	Alex-Verh	Wed Jun 21 11:45:43 2023 +0200	Added notifications modal
+e911267	Alex-Verh	Wed Jun 21 09:11:04 2023 +0200	Merge remote-tracking branch 'origin/master'
+4d9cdd6	John	Tue Jun 20 23:41:04 2023 +0200	Modified the return of /api/reviews/teacher/{id|.
+dc2ebfa	Alex-Verh	Tue Jun 20 23:00:35 2023 +0200	Merge remote-tracking branch 'origin/master'
+7f79360	John	Tue Jun 20 22:59:51 2023 +0200	Merge branch 'master' of https://gitlab.utwente.nl/s2958716/notebridge
+4a51816	John	Tue Jun 20 22:59:46 2023 +0200	Changes in map.js and API.
+4cf5fba	Alex-Verh	Tue Jun 20 22:09:32 2023 +0200	Added contact validation
+d986445	Alex-Verh	Tue Jun 20 21:25:36 2023 +0200	Remade client validation
+8f7c4b5	Alex-Verh	Tue Jun 20 21:06:10 2023 +0200	Merge remote-tracking branch 'origin/master'
+16cb9e4	Alex-Verh	Tue Jun 20 21:06:02 2023 +0200	Added instruments display on teacher profile
+ed9feeb	John	Tue Jun 20 20:34:44 2023 +0200	Fixed the ussage of resultSet.next().
+13b5c8f	John	Tue Jun 20 20:20:38 2023 +0200	Merge branch 'master' of https://gitlab.utwente.nl/s2958716/notebridge
+0dcd254	John	Tue Jun 20 20:20:33 2023 +0200	Handling API sql exceptions.
+5d62e4c	Kevin	Tue Jun 20 20:04:26 2023 +0200	add on delete cascade for teacher instruments
+1c22bf4	Alex-Verh	Tue Jun 20 20:01:44 2023 +0200	Merge remote-tracking branch 'origin/master'
+1538fe0	Alex-Verh	Tue Jun 20 20:01:33 2023 +0200	Fixed profile page
+90d725d	John	Tue Jun 20 19:56:01 2023 +0200	Merge branch 'master' of https://gitlab.utwente.nl/s2958716/notebridge
+6c5caaf	John	Tue Jun 20 19:55:56 2023 +0200	Modified /api/users/profile/id.
+86b2b1c	Chitoraga, D. (Daniel, Student B-TCS)	Tue Jun 20 18:35:18 2023 +0200	Implemented TeacherInstrumentsDAOTest.java and fixed a method from it's DAO/Resource
+2d4fb1f	Chitoraga, D. (Daniel, Student B-TCS)	Tue Jun 20 18:12:12 2023 +0200	Implemented ZipcodeCoordinatesDaoTEST.java
+e7eb7a7	John	Tue Jun 20 18:08:43 2023 +0200	Fixed isZipcodeExists.
+61abfd3	John	Tue Jun 20 17:58:10 2023 +0200	Fixed zipcode update - remove spaces + all uppercase.
+77dcc95	John	Tue Jun 20 17:55:38 2023 +0200	Merge branch 'master' of https://gitlab.utwente.nl/s2958716/notebridge
+e489ada	John	Tue Jun 20 17:55:15 2023 +0200	Fixed zipcode update.
+f45de26	John	Tue Jun 20 17:55:06 2023 +0200	Fixed zipcode update.
+f4bdf2c	Kevin	Tue Jun 20 17:51:02 2023 +0200	made schedule id in booking unique
+53ae682	Kevin	Tue Jun 20 17:47:14 2023 +0200	Merge remote-tracking branch 'origin/master'
+66921ca	Kevin	Tue Jun 20 17:47:08 2023 +0200	made search lesson and search teacher work i think
+0763558	John	Tue Jun 20 17:44:46 2023 +0200	Merge branch 'master' of https://gitlab.utwente.nl/s2958716/notebridge
+93f351b	John	Tue Jun 20 17:44:21 2023 +0200	Fixed the coordinate load order in map.js. Fixed insertion of zipcodeCoordinate and added regex check.
+6d30ebf	Chitoraga, D. (Daniel, Student B-TCS)	Tue Jun 20 17:12:44 2023 +0200	Reformatted test classes
+9753bbf	Chitoraga, D. (Daniel, Student B-TCS)	Tue Jun 20 16:59:25 2023 +0200	Merge remote-tracking branch 'origin/master'
+689ca3b	Chitoraga, D. (Daniel, Student B-TCS)	Tue Jun 20 16:59:15 2023 +0200	Implemented TeacherScheduleDAOTest.java
+828da7b	John	Tue Jun 20 16:36:21 2023 +0200	Merge branch 'master' of https://gitlab.utwente.nl/s2958716/notebridge
+60fefc4	John	Tue Jun 20 16:35:37 2023 +0200	Small fix in teacher dao.
+d39d085	Kevin	Tue Jun 20 15:47:06 2023 +0200	improved error handling for resources
+48ba0b3	Kevin	Tue Jun 20 15:26:34 2023 +0200	fix test and bug
+8cdfae3	Kevin	Tue Jun 20 15:09:59 2023 +0200	move file
+307cd92	Kevin	Tue Jun 20 15:09:02 2023 +0200	fixed test and file i forget to commit
+e66bae0	Kevin	Tue Jun 20 15:06:18 2023 +0200	move online to user table and add find studied instruments api
+5c07763	Kevin	Tue Jun 20 14:26:13 2023 +0200	Revert "add birthdate to user"
+85a7065	Kevin	Tue Jun 20 14:26:13 2023 +0200	add birthdate to user
+1e465d7	Alex-Verh	Tue Jun 20 14:05:51 2023 +0200	Merge remote-tracking branch 'origin/master'
+721a758	Alex-Verh	Tue Jun 20 14:05:39 2023 +0200	Added dynamic nav bar
+4fba4f3	Chitoraga, D. (Daniel, Student B-TCS)	Tue Jun 20 13:17:26 2023 +0200	Added NotificationDaoTest.java
+72f4bbf	Chitoraga, D. (Daniel, Student B-TCS)	Tue Jun 20 13:12:42 2023 +0200	Merge remote-tracking branch 'origin/master'
+9b21540	Chitoraga, D. (Daniel, Student B-TCS)	Tue Jun 20 13:12:29 2023 +0200	Added a new constructor for Notification and fixed order of Notifications in getNotificationsForUser
+d56d806	Kevin	Tue Jun 20 13:04:38 2023 +0200	add get free teacher schedules to api
+eb7459a	Kevin	Tue Jun 20 12:39:32 2023 +0200	add setting booking to cancelled or finished in api
+7ff6ca0	Kevin	Tue Jun 20 12:26:54 2023 +0200	add description to user(=student)
+a72b0b9	Kevin	Tue Jun 20 11:59:54 2023 +0200	add getlessons of teacher to api
+a04f532	Kevin	Tue Jun 20 11:52:34 2023 +0200	add get review count of teacher to api
+ad7268e	Chitoraga, D. (Daniel, Student B-TCS)	Tue Jun 20 11:36:17 2023 +0200	Merge remote-tracking branch 'origin/master'
+e8e1b69	Chitoraga, D. (Daniel, Student B-TCS)	Tue Jun 20 11:36:04 2023 +0200	Fixed timestamp field (from datatype Date.sql to Timestamp.sql)
+ba87a21	Kevin	Tue Jun 20 11:29:18 2023 +0200	Merge remote-tracking branch 'origin/master'
+08963e7	Kevin	Tue Jun 20 11:29:16 2023 +0200	add search by teacher for api (not 100% functioning) will fix later
+4bda5f4	Chitoraga, D. (Daniel, Student B-TCS)	Tue Jun 20 10:32:39 2023 +0200	Merge remote-tracking branch 'origin/master'
+77f55aa	Chitoraga, D. (Daniel, Student B-TCS)	Tue Jun 20 10:32:32 2023 +0200	Fixed UserDAOTest
+74b2d6b	Kevin	Tue Jun 20 09:40:02 2023 +0200	api md
+084cb1d	John	Mon Jun 19 23:25:32 2023 +0200	Merge branch 'master' of https://gitlab.utwente.nl/s2958716/notebridge
+f062b94	John	Mon Jun 19 23:25:26 2023 +0200	Connected map to database + small fixes.
+fbb09d8	Alex-Verh	Mon Jun 19 22:59:41 2023 +0200	Merge remote-tracking branch 'origin/master'
+b27908e	Alex-Verh	Mon Jun 19 22:59:32 2023 +0200	Added statistic fetches for main page and dynamic display of info on profile page
+3de5743	Chitoraga, D. (Daniel, Student B-TCS)	Mon Jun 19 21:50:15 2023 +0200	Almost fixed UserDAOTest
+e2ac174	Chitoraga, D. (Daniel, Student B-TCS)	Mon Jun 19 21:49:27 2023 +0200	Merge remote-tracking branch 'origin/master'
+8e55680	Kevin	Mon Jun 19 21:48:46 2023 +0200	add method to count past bookings of student and retrieve lesson list
+d81b5ed	Kevin	Mon Jun 19 21:47:37 2023 +0200	removed teacher instrument experience
+87950f5	Chitoraga, D. (Daniel, Student B-TCS)	Mon Jun 19 21:46:27 2023 +0200	Merge remote-tracking branch 'origin/master'
+a6b39bf	Chitoraga, D. (Daniel, Student B-TCS)	Mon Jun 19 21:45:42 2023 +0200	Revert "Fixed UserDAOTest.java"
+3e56ea9	Chitoraga, D. (Daniel, Student B-TCS)	Mon Jun 19 21:27:49 2023 +0200	Fixed UserDAOTest.java
+45b40f9	Alex-Verh	Mon Jun 19 20:08:02 2023 +0200	Merge remote-tracking branch 'origin/master'
+65e11ba	Alex-Verh	Mon Jun 19 20:06:49 2023 +0200	Added fetches for profile page
+7710912	John	Mon Jun 19 20:06:31 2023 +0200	Merge branch 'master' of https://gitlab.utwente.nl/s2958716/notebridge
+a2eb345	John	Mon Jun 19 20:06:25 2023 +0200	Zipcode Coordinates classes created.
+0440ae6	mihaitulbure	Mon Jun 19 18:22:57 2023 +0200	Merge remote-tracking branch 'origin/mihai'
+4fde1dd	mihaitulbure	Mon Jun 19 18:22:10 2023 +0200	MessageDAO tested
+bc0a6ed	John	Mon Jun 19 18:16:10 2023 +0200	Modified profile servlet. Made it impossible to search profile by strings; id only allowed.
+d0d201c	mihaitulbure	Mon Jun 19 18:12:53 2023 +0200	Merge branch 'master' into mihai
+64cfa9a	mihaitulbure	Mon Jun 19 17:58:48 2023 +0200	MessageDAO tested
+7c91f8c	John	Mon Jun 19 17:54:42 2023 +0200	Modified profile/userid API.
+7bfe418	Kevin	Mon Jun 19 17:38:17 2023 +0200	Merge remote-tracking branch 'origin/master'
+b9bb169	Kevin	Mon Jun 19 17:38:09 2023 +0200	added documentation to database methods
+54cf21f	Alex-Verh	Mon Jun 19 17:26:04 2023 +0200	Merge remote-tracking branch 'origin/master'
+435a601	Alex-Verh	Mon Jun 19 17:25:53 2023 +0200	Small changes
+cabb2cd	Kevin	Mon Jun 19 16:58:34 2023 +0200	Merge remote-tracking branch 'origin/master'
+6f244ab	Kevin	Mon Jun 19 16:58:24 2023 +0200	add zipcode table
+7ccdf4d	John	Mon Jun 19 16:56:54 2023 +0200	Merge branch 'master' of https://gitlab.utwente.nl/s2958716/notebridge
+e684bf9	John	Mon Jun 19 16:56:46 2023 +0200	Added zipcodes to teachers and store them in db.
+58eb538	Kevin	Mon Jun 19 16:54:43 2023 +0200	add new resources for api
+e1f0360	Kevin	Mon Jun 19 16:00:57 2023 +0200	improve api
+3c30c19	Kevin	Mon Jun 19 14:41:06 2023 +0200	add breaklines
+4e8a23c	Kevin	Mon Jun 19 14:37:38 2023 +0200	Merge remote-tracking branch 'origin/master'
+322b80c	Kevin	Mon Jun 19 14:37:27 2023 +0200	add documentation for api
+3177c4b	mihaitulbure	Mon Jun 19 14:35:27 2023 +0200	Merge remote-tracking branch 'origin/master'
+a6efd09	Kevin	Mon Jun 19 14:30:55 2023 +0200	remove hashmap
+4ad35b2	Kevin	Mon Jun 19 13:27:21 2023 +0200	improve api
+913ef83	Kevin	Mon Jun 19 14:30:55 2023 +0200	remove hashmap
+b68e588	mihaitulbure	Mon Jun 19 14:22:17 2023 +0200	Merge remote-tracking branch 'origin/mihai' into mihai
+a253808	mihaitulbure	Mon Jun 19 14:20:31 2023 +0200	Some changes to classes because of the merge
+efddec0	Kevin	Mon Jun 19 13:27:21 2023 +0200	improve api
+10f4033	Kevin	Mon Jun 19 12:36:09 2023 +0200	add mihai tests
+47c6e1f	Kevin	Mon Jun 19 12:32:05 2023 +0200	fix api idk
+73dfe37	mihaitulbure	Mon Jun 19 11:56:02 2023 +0200	BookingDAOTest, CountryDAOTest, InstrumentDAOTest done
+43c9856	Kevin	Mon Jun 19 12:15:01 2023 +0200	fix lesosn
+2ff042c	Kevin	Mon Jun 19 12:00:36 2023 +0200	fix lesson
+ffd6437	Kevin	Mon Jun 19 11:50:54 2023 +0200	update booking
+74a7597	Kevin	Mon Jun 19 11:31:27 2023 +0200	add zip code to teacher
+172c481	Kevin	Mon Jun 19 11:13:44 2023 +0200	update api and fix bugs
+f3eb0d7	Kevin	Mon Jun 19 10:19:12 2023 +0200	remove not null constraint for country code and city
+60d8314	Kevin	Mon Jun 19 10:18:22 2023 +0200	add password hash salt  column
+eab1dcb	Kevin	Mon Jun 19 10:03:39 2023 +0200	fix build errors
+f9771dd	Kevin	Mon Jun 19 10:01:11 2023 +0200	half fix
+39e3352	Kevin	Mon Jun 19 09:53:06 2023 +0200	Merge branch 'master' into mihai
+da0085b	Kevin	Mon Jun 19 09:51:52 2023 +0200	Merge remote-tracking branch 'origin/master'
+469c019	Kevin	Mon Jun 19 09:51:31 2023 +0200	Improved api
+e9bac58	Alex-Verh	Mon Jun 19 09:48:17 2023 +0200	Merge remote-tracking branch 'origin/master'
+77c09e6	John	Mon Jun 19 09:47:31 2023 +0200	CSRF token modifications.
+07c68c0	Alex-Verh	Mon Jun 19 09:37:03 2023 +0200	Added answers to FAQ questions
+4335aa6	Kevin	Mon Jun 19 06:29:06 2023 +0200	Merge remote-tracking branch 'origin/master'
+736c6aa	John	Sun Jun 18 23:50:49 2023 +0200	Modified the CSRF token functionality.
+3ee0ebf	John	Sun Jun 18 22:55:15 2023 +0200	Merge branch 'mihai'
+5583295	John	Sun Jun 18 20:40:32 2023 +0200	Moved code from Login.java to LoginServlet.java
+c52f35f	John	Sun Jun 18 20:39:50 2023 +0200	Moved code from Login.java to LoginServlet.java
+6f458f9	John	Sun Jun 18 19:56:32 2023 +0200	Merge branch 'master' of https://gitlab.utwente.nl/s2958716/notebridge
+7442abe	Chitoraga, D. (Daniel, Student B-TCS)	Sun Jun 18 13:40:16 2023 +0200	Merge remote-tracking branch 'origin/mihai' into mihai
+263d41a	Chitoraga, D. (Daniel, Student B-TCS)	Sun Jun 18 13:40:05 2023 +0200	Almost finished UserDAOTest
+8e481ea	Chitoraga, D. (Daniel, Student B-TCS)	Sun Jun 18 13:39:02 2023 +0200	Login to lowercase more minor fixes
+b4b1332	Kevin	Sun Jun 18 13:07:10 2023 +0200	added review api and changed notification api
+1ce567d	Kevin	Sun Jun 18 13:06:45 2023 +0200	change rating to double
+3fab642	Kevin	Sun Jun 18 11:32:47 2023 +0200	updated message and country api
+7a074a6	Kevin	Sun Jun 18 11:14:27 2023 +0200	remove build errors oops
+828e2bc	Kevin	Sun Jun 18 11:11:16 2023 +0200	Update user api with a new to handle erros
+df66952	Kevin	Sun Jun 18 11:08:47 2023 +0200	fixed sql file
+3279171	mihaitulbure	Sun Jun 18 10:56:47 2023 +0200	Merge remote-tracking branch 'origin/mihai' into mihai
+0867d4f	Kevin	Sun Jun 18 08:47:44 2023 +0200	Merge remote-tracking branch 'origin/master'
+91af357	John	Sun Jun 18 03:29:16 2023 +0200	Refactored map.js
+5181aaf	John	Sun Jun 18 02:58:59 2023 +0200	Fixed hashing and profile login.
+95342a4	mihaitulbure	Sun Jun 18 01:43:30 2023 +0200	Booking Delete and insert Testing
+e5c593a	Chitoraga, D. (Daniel, Student B-TCS)	Sun Jun 18 01:35:49 2023 +0200	Merge remote-tracking branch 'origin/mihai' into mihai
+44ac4d5	Chitoraga, D. (Daniel, Student B-TCS)	Sun Jun 18 01:35:37 2023 +0200	Implemented SecurityTest
+ee70a2c	mihaitulbure	Sun Jun 18 01:13:55 2023 +0200	Merge remote-tracking branch 'origin/mihai' into mihai
+f27113b	mihaitulbure	Sun Jun 18 01:13:33 2023 +0200	John + changes
+6fcea57	Chitoraga, D. (Daniel, Student B-TCS)	Sun Jun 18 01:10:12 2023 +0200	Merge remote-tracking branch 'origin/mihai' into mihai
+a9c76a4	Chitoraga, D. (Daniel, Student B-TCS)	Sun Jun 18 01:09:57 2023 +0200	Started implementing testing
+85b6671	mihaitulbure	Sun Jun 18 01:05:59 2023 +0200	Merge remote-tracking branch 'origin/mihai' into mihai
+262a892	mihaitulbure	Sun Jun 18 01:04:39 2023 +0200	TeacherInstruments class added.
+9d32dd0	Chitoraga, D. (Daniel, Student B-TCS)	Sun Jun 18 00:51:25 2023 +0200	lowercased the email at login and register
+04d0a5a	Chitoraga, D. (Daniel, Student B-TCS)	Sun Jun 18 00:30:33 2023 +0200	Added test package
+b18c4b0	Chitoraga, D. (Daniel, Student B-TCS)	Sun Jun 18 00:30:13 2023 +0200	Backend validations
+bc439ff	Alex-Verh	Sat Jun 17 20:13:19 2023 +0200	Fixed client validation
+27d354c	Kevin	Sat Jun 17 15:32:58 2023 +0200	changed error code of notification
+db3d52f	Kevin	Sat Jun 17 15:06:57 2023 +0200	completed notification api
+66cc414	Kevin	Sat Jun 17 13:39:10 2023 +0200	stub for notification
+208ea0e	Kevin	Sat Jun 17 13:17:12 2023 +0200	Merge remote-tracking branch 'origin/master'
+25b5cf3	Kevin	Sat Jun 17 13:14:23 2023 +0200	Added message api
+34f66a2	Kevin	Sat Jun 17 12:27:48 2023 +0200	Added country api
+eb6aa4e	mihaitulbure	Fri Jun 16 20:45:39 2023 +0200	Booking + BookingDAO done with some improvements
+4051870	John	Wed Jun 14 22:36:01 2023 +0200	Sprint review version. Corrections made + Argon2 started.
+81630da	Kevin	Wed Jun 14 19:32:21 2023 +0200	add stub for booking
+95d9efe	Kevin	Wed Jun 14 12:51:31 2023 +0200	added teacher schedule resources
+6bc93da	Kevin	Mon Jun 12 16:47:01 2023 +0200	remove build errors and changed schema
+bf3b872	mihaitulbure	Tue Jun 13 20:24:34 2023 +0200	TeacherSchedule class + TeacherScheduleDAO
+27d3bef	mihaitulbure	Tue Jun 13 17:59:00 2023 +0200	Commits saved from Kevin
+7d8f90b	Kevin	Tue Jun 13 17:26:07 2023 +0200	implemented more methods for lessons
+1111297	Kevin	Tue Jun 13 17:25:16 2023 +0200	lessons can be deleted with booking now
+9c48752	Kevin	Tue Jun 13 16:39:10 2023 +0200	Implemented some lessondao methods and lessonsresource methods
+d96cefc	John	Tue Jun 13 16:34:41 2023 +0200	Merge branch 'master' of https://gitlab.utwente.nl/s2958716/notebridge
+2d0d263	John	Tue Jun 13 16:32:27 2023 +0200	Generated html and css.
+6ea638a	Alex-Verh	Tue Jun 13 15:50:40 2023 +0200	Merge remote-tracking branch 'origin/master'
+be8f9b3	Alex-Verh	Tue Jun 13 15:49:56 2023 +0200	Added form client validation
+a783049	mihaitulbure	Mon Jun 12 23:19:40 2023 +0200	More methods stub implementation for LessonDAO
+3040d7c	mihaitulbure	Mon Jun 12 23:12:27 2023 +0200	Lesson class done + some methods in LessonDao
+e7db795	mihaitulbure	Sat Jun 10 22:11:44 2023 +0200	Test for Kevin method insertTeacher
+a4b24f8	John	Mon Jun 12 20:30:01 2023 +0200	Merge branch 'master' of https://gitlab.utwente.nl/s2958716/notebridge
+43815e8	John	Mon Jun 12 20:29:55 2023 +0200	Register / Login stuff.
+7dba164	Alex-Verh	Mon Jun 12 20:22:38 2023 +0200	Merge remote-tracking branch 'origin/master'
+9a52a0c	Alex-Verh	Mon Jun 12 20:22:18 2023 +0200	Added modal responsiveness
+0967708	John	Mon Jun 12 19:38:19 2023 +0200	Merge branch 'master' of https://gitlab.utwente.nl/s2958716/notebridge
+67d43b8	John	Mon Jun 12 19:37:58 2023 +0200	Updated stuff. Added example url mapping + session id + cookie.
+a590628	Kevin	Mon Jun 12 16:47:01 2023 +0200	remove build errors
+33ae2f3	John	Mon Jun 12 16:09:58 2023 +0200	Merged branch.
+55970b2	John	Mon Jun 12 16:09:35 2023 +0200	Merge branch 'master' of https://gitlab.utwente.nl/s2958716/notebridge
+ac024fb	John	Mon Jun 12 16:04:08 2023 +0200	Same as last.
+d58ccaf	John	Mon Jun 12 16:03:24 2023 +0200	API stuff. Login & register user/teacher.
+e8f102c	Alex-Verh	Mon Jun 12 16:01:07 2023 +0200	Added chat
+fbc1314	Alex-Verh	Mon Jun 12 14:13:46 2023 +0200	Merge remote-tracking branch 'origin/master'
+ab64be4	Alex-Verh	Mon Jun 12 14:13:34 2023 +0200	Added menu
+c166ad3	Kevin	Mon Jun 12 12:12:26 2023 +0200	change function to adjust to new booking thing
+1ab0417	Kevin	Mon Jun 12 11:11:45 2023 +0200	add check to message table
+64c17f6	Kevin	Mon Jun 12 10:56:23 2023 +0200	changed the way the schedule works
+83bff3b	Kevin	Mon Jun 12 09:54:23 2023 +0200	Removed teacher id from booking
+12fd1dc	Alex-Verh	Sun Jun 11 17:47:29 2023 +0200	Added choosing teacher availability
+dd9cd87	Alex-Verh	Sun Jun 11 17:30:28 2023 +0200	Merge remote-tracking branch 'origin/master'
+f113643	Alex-Verh	Sun Jun 11 17:30:17 2023 +0200	Added calendar with js, and view-availability modal
+decbb11	John	Sat Jun 10 01:33:24 2023 +0200	Merge branch 'master' of https://gitlab.utwente.nl/s2958716/notebridge
+14b6331	John	Sat Jun 10 01:24:14 2023 +0200	Following commit to the previous one. Forgot to include the actual new stuff added.
+5139e19	John	Sat Jun 10 01:22:15 2023 +0200	API: - users: GET, POST (form and object), DELETE - instruments: GET, POST(object), DELETE DB: - modified Kevin's functions for predefined statements & added some new
+2fb88f9	Alex-Verh	Fri Jun 9 16:10:25 2023 +0200	Merge remote-tracking branch 'origin/master'
+a0730f4	Alex-Verh	Fri Jun 9 16:09:59 2023 +0200	Added javascript, modal opening
+115774a	Kevin	Fri Jun 9 13:54:16 2023 +0200	Add method for prepared statement and example on how to use it
+995dda3	Kevin	Fri Jun 9 13:47:42 2023 +0200	Added unique constraint to email
+2ba5f8d	Kevin	Fri Jun 9 11:36:27 2023 +0200	added db sql file and intellij diagram
+f098b59	John	Thu Jun 8 09:29:09 2023 +0200	Refactoring again.
+8bd8691	John	Thu Jun 8 09:28:59 2023 +0200	Refactoring.
+f12d61f	John	Thu Jun 8 09:27:22 2023 +0200	Merge branch 'master' of https://gitlab.utwente.nl/s2958716/notebridge
+52bbb7e	John	Thu Jun 8 09:26:42 2023 +0200	API stuff.
+5db3860	Chitoraga, D. (Daniel, Student B-TCS)	Thu Jun 8 09:19:38 2023 +0200	Changed location of singleton
+4de77fe	Chitoraga, D. (Daniel, Student B-TCS)	Thu Jun 8 09:17:53 2023 +0200	Merge remote-tracking branch 'origin/master'
+5431002	Chitoraga, D. (Daniel, Student B-TCS)	Thu Jun 8 09:17:25 2023 +0200	Added database singleton for querying
+e8b8325	John	Wed Jun 7 20:30:23 2023 +0200	Merge branch 'master' of https://gitlab.utwente.nl/s2958716/notebridge
+47f469c	John	Wed Jun 7 20:29:39 2023 +0200	Refactored the structure of the project.
+b6f5f56	John	Wed Jun 7 20:29:17 2023 +0200	Css local commit.
+c976e04	Alex-Verh	Wed Jun 7 18:27:27 2023 +0200	Added nav highlighting
+2df5c3c	Alex-Verh	Wed Jun 7 17:55:01 2023 +0200	Added pugJS for duplicate avoidance
+d5a0192	Alex-Verh	Tue Jun 6 17:36:10 2023 +0200	View reviews modal added
+9896147	Alex-Verh	Tue Jun 6 10:36:36 2023 +0200	Add review modal done
+d8f15bb	Alex-Verh	Tue Jun 6 00:13:51 2023 +0200	Added view lesson modal
+cab095e	Alex-Verh	Mon Jun 5 23:49:00 2023 +0200	Added add/edit lesson modal
+c4e2d5c	Alex-Verh	Sun Jun 4 13:58:31 2023 +0200	John's map
+4456ea9	mihaitulbure	Sun Jun 4 13:46:24 2023 +0200	added imports
+cdac75e	Chitoraga, D. (Daniel, Student B-TCS)	Sat Jun 3 23:40:40 2023 +0200	added dependency
+8c07ccc	Chitoraga, D. (Daniel, Student B-TCS)	Sat Jun 3 23:33:32 2023 +0200	added postgres lib
+967048d	Chitoraga, D. (Daniel, Student B-TCS)	Sat Jun 3 23:00:43 2023 +0200	Connecting db
+bf8054c	s2946602	Sat Jun 3 21:01:11 2023 +0200	Delete NoteBridge1_assignment2.pdf
+feb59f3	s2946602	Sat Jun 3 21:00:53 2023 +0200	Assignment 2 uploaded.
+aac166a	s2946602	Sat Jun 3 20:59:07 2023 +0200	Assignment 2
+8c28ee9	s2946602	Sat Jun 3 20:52:24 2023 +0200	Add new directory
+e3117aa	Alex-Verh	Thu Jun 1 22:25:28 2023 +0200	Removed unused imports
+7086cce	Alex-Verh	Thu Jun 1 22:01:52 2023 +0200	Refactored project structure
+de94755	Alex-Verh	Wed May 31 23:52:30 2023 +0200	Merge remote-tracking branch 'origin/master'
+6c99059	Alex-Verh	Wed May 31 23:52:23 2023 +0200	Added Daniel's chat
+8be27a1	Chitoraga, D. (Daniel, Student B-TCS)	Wed May 31 12:45:39 2023 +0200	Implemented chat
+8952910	Chitoraga, D. (Daniel, Student B-TCS)	Wed May 31 12:39:38 2023 +0200	Revert "Implemented chat"
+f6c3743	Chitoraga, D. (Daniel, Student B-TCS)	Wed May 31 11:25:57 2023 +0200	Merge remote-tracking branch 'origin/master'
+a1118ff	Chitoraga, D. (Daniel, Student B-TCS)	Wed May 31 11:25:42 2023 +0200	Implemented chat
+4f82886	Alex-Verh	Wed May 31 10:21:07 2023 +0200	Presentation preparation
+5093bd8	Alex-Verh	Wed May 31 09:35:04 2023 +0200	Added map responsiveness
+e3cb246	Alex-Verh	Wed May 31 08:29:48 2023 +0200	Added navigation
+15c8759	Alex-Verh	Wed May 31 08:10:52 2023 +0200	Added map little customization
+5d550df	Alex-Verh	Wed May 31 07:54:30 2023 +0200	Merge John's branch into Master
+b98b33e	Alex-Verh	Tue May 30 22:55:13 2023 +0200	Added icons
+6a72e41	Alex-Verh	Tue May 30 22:55:00 2023 +0200	Done edit-profile-modal
+806ed1d	Alex-Verh	Tue May 30 22:13:39 2023 +0200	Done profile-modal
+be16505	Alex-Verh	Tue May 30 21:28:55 2023 +0200	Fixed profile page
+0240f22	Alex-Verh	Tue May 30 19:18:41 2023 +0200	Profile page done, including responsiveness
+229786c	Alex-Verh	Tue May 30 14:12:18 2023 +0200	Added responsiveness to payment page
+e057753	Alex-Verh	Tue May 30 14:01:24 2023 +0200	Corrected payment page
+396f3d9	Alex-Verh	Tue May 30 13:09:39 2023 +0200	Merge remote-tracking branch 'origin/master'
+41a0891	Alex-Verh	Tue May 30 13:09:32 2023 +0200	Initialized profile page
+fbf0e20	Chitoraga, D. (Daniel, Student B-TCS)	Tue May 30 13:05:00 2023 +0200	Implemented payment page
+ccf3e13	Alex-Verh	Tue May 30 09:31:19 2023 +0200	Added responsiveness for laptop
+15a047a	Alex-Verh	Mon May 29 21:06:38 2023 +0200	Added responsiveness for contact page
+a2e9c4c	Alex-Verh	Mon May 29 20:25:01 2023 +0200	Merge remote-tracking branch 'origin/Kevin'
+593f201	Alex-Verh	Mon May 29 20:21:07 2023 +0200	Fixed contact page
+489cee2	Alex-Verh	Mon May 29 19:24:26 2023 +0200	Added responsiveness login/register pages
+c180408	Alex-Verh	Mon May 29 18:08:17 2023 +0200	Added :hover and :focus for UI
+2f63105	Alex-Verh	Mon May 29 16:44:20 2023 +0200	Merge remote-tracking branch 'origin/John'
+52c6991	Alex-Verh	Mon May 29 16:42:13 2023 +0200	Fixed register/login pages on Mihai/John branch
+cd3932d	Alex-Verh	Mon May 29 16:01:05 2023 +0200	Added responsiveness for lessons page
+d373d82	Alex-Verh	Mon May 29 15:26:01 2023 +0200	Added aside filter bar (Chitoraga Daniel commit on Master branch)
+2e2a205	Alex-Verh	Mon May 29 15:18:26 2023 +0200	Added lessons page
+3d43b55	John	Mon May 29 14:34:38 2023 +0200	Little modifications to register and login pages.
+55113d1	John	Mon May 29 02:03:53 2023 +0200	Created  the register and login page. Added .highlighted-first-color class and .input class in ui.scss.
+980c75f	Kevin	Sun May 28 22:53:57 2023 +0200	 clean up code
+2c06acc	Kevin	Sun May 28 22:39:56 2023 +0200	Finished contact page
+2581970	Kevin	Sun May 28 15:54:54 2023 +0200	Almost finished up contact page
+807a683	Alex-Verh	Sat May 27 20:48:40 2023 +0200	Adde mobile responsiveness
+258f971	Alex-Verh	Sat May 27 20:04:25 2023 +0200	Added responsiveness to main page and statistics bar
+a601e82	Alex-Verh	Fri May 26 23:52:04 2023 +0200	Refactored scss folder structure
+c76cbb2	Alex-Verh	Fri May 26 23:32:10 2023 +0200	Added background gradient
+89239f7	Alex-Verh	Fri May 26 22:33:43 2023 +0200	Added footer bar
+56ec704	Alex-Verh	Fri May 26 21:54:30 2023 +0200	Explore section of main page done
+da565b1	Alex-Verh	Fri May 26 21:27:52 2023 +0200	Commit navigation bar, main page header
+319ef29	Alex-Verh	Wed May 24 13:13:21 2023 +0200	added font styles (montserrat and open-sans)
+42b6294	Alex-Verh	Wed May 24 10:16:15 2023 +0200	changed the script
+e63d230	Alex-Verh	Wed May 24 10:16:07 2023 +0200	changed the script
+d45f80b	Kevin	Sun May 28 11:38:20 2023 +0200	Start of contact-page
+43bde57	Alex-Verh	Sat May 27 20:48:40 2023 +0200	Adde mobile responsiveness
+b8ea604	Alex-Verh	Sat May 27 20:04:25 2023 +0200	Added responsiveness to main page and statistics bar
+ce73db4	Alex-Verh	Fri May 26 23:52:04 2023 +0200	Refactored scss folder structure
+431b3a9	Alex-Verh	Fri May 26 23:32:10 2023 +0200	Added background gradient
+a8bb0ba	Alex-Verh	Fri May 26 22:33:43 2023 +0200	Added footer bar
+c3870df	Alex-Verh	Fri May 26 21:54:30 2023 +0200	Explore section of main page done
+0807071	Alex-Verh	Fri May 26 21:27:52 2023 +0200	Commit navigation bar, main page header
+7f03665	Alex-Verh	Wed May 24 13:13:21 2023 +0200	added font styles (montserrat and open-sans)
+6c10906	Alex-Verh	Wed May 24 10:16:15 2023 +0200	changed the script
+867287f	Alex-Verh	Wed May 24 10:16:07 2023 +0200	changed the script
+0c02831	Alex-Verh	Tue May 23 19:10:11 2023 +0200	Initialized the project. Have added SCSS to CSS converter and Bootstrap grid. Started working on main page
+53a6798	Alex-Verh	Tue May 23 18:36:44 2023 +0200	initialized the project, added scss to css converter, added bootstrap grid, created initial client package structure
+a1e504d	John	Tue May 23 17:21:29 2023 +0200	Refactored files. Put all the source code into /sourcecode/notebridge.
+abb9317	Verhoveţchi, A. (Alexandru, Student B-TCS)	Sun May 21 23:14:23 2023 +0200	Merge branch 's2928787-master-patch-15243' into 'master'
+c1db4e5	Tulei, I. (Ion, Student B-TCS)	Sun May 21 22:57:02 2023 +0200	Design Report - assignment 1
+e1deb81	Alex-Verh	Sun May 21 18:56:17 2023 +0200	moved the file in correct folder
+aa6cb61	Verhoveţchi, A. (Alexandru, Student B-TCS)	Sun May 21 18:54:00 2023 +0200	Merge branch 's2928787-master-patch-54877' into 'master'
+a7c95d7	Tulei, I. (Ion, Student B-TCS)	Sun May 21 01:39:48 2023 +0200	Assignment 1
+6b24b79	Verhoveţchi, A. (Alexandru, Student B-TCS)	Fri May 19 17:59:41 2023 +0200	Initialized the project
+b04d7c0	chitoragadaniel	Fri May 19 17:45:00 2023 +0200	Created blank project

@@ -1,0 +1,32 @@
+extends ../snippets/base
+
+block title
+    title NoteBridge - Lessons
+
+block css
+    link(href='../static/css/lessons.css' rel='stylesheet')
+    link(href='../static/css/samples/aside-filter.css' rel='stylesheet')
+    link(href='../static/css/samples/chat.css' rel='stylesheet')
+    link(href='../static/css/samples/notifications.css' rel='stylesheet')
+    link(href='../static/css/profile.css' rel='stylesheet')
+    link(href='../static/css/samples/support-chat.css' rel='stylesheet')
+block scripts
+    script(type='module' charset='utf-8' src='../static/scripts/lessons.js')
+    script(type='module' charset='utf-8' src='../static/scripts/support-chat.js')
+
+block modals
+    include ../snippets/nav.pug
+    +snippet({message: "lessons"})
+
+    include ../snippets/filter.pug
+    include ../snippets/chat.pug
+    include ../snippets/notifications.pug
+    include ../modals/view-review-modal.pug
+    include ../snippets/support-chat.pug
+
+block content
+
+    main.lessons
+        .container
+            #load-more.button Load More
+

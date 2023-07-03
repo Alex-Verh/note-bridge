@@ -1,0 +1,46 @@
+extends ../snippets/base
+
+block title
+    title NoteBridge - Login
+
+block css
+    link(href='../static/css/login.css' rel='stylesheet')
+    link(href='../static/css/samples/support-chat.css' rel='stylesheet')
+    link(href='../static/css/samples/chat.css' rel='stylesheet')
+
+block scripts
+    script(type='module' charset='utf-8' src='../static/scripts/register.js')
+    script(type='module' charset='utf-8' src='../static/scripts/support-chat.js')
+
+block modals
+    include ../snippets/nav.pug
+    +snippet({message: "home"})
+
+    include ../snippets/support-chat.pug
+
+block content
+    main.register
+        .container
+            .row
+                .col-md-12.col-lg-6
+                    .register__title
+                        | Explore the
+                        span.highlighted  music
+                        |  world.
+                    form#loginForm.register__form(action='/login' method='POST')
+                        .input-field
+                            label.input-label(for='loginEmail') Email address
+                            input#loginEmail.input(type='text' name='loginEmail' required='')
+                        .input-field
+                            label.input-label(for='loginPassword') Password
+                            input#loginPassword.input(type='password' name='loginPassword' required='')
+                            .register__forgot-password
+                                a(href='/forgot-password') Forgot your password?
+                        input.button.register__btn(type='submit' value='Log In')
+                    .register__propose
+                        | Don&apos;t have an account yet?
+                        a.highlighted-first-color(href='/register')  Sign Up.
+                .col-md-0.col-lg-6
+                    .register__image
+                        img(src='../static/images/login-illustration-1.svg' alt='Illustration')
+

@@ -1,0 +1,15 @@
+@import "../css/bootstrap-grid.min.css";
+@import "../css/bootstrap-reboot.min.css";
+
+@import "../fonts/fonts.css";
+
+@import "static/scss/general/general";
+@import "samples/nav.scss";
+@import "samples/footer.scss";
+@import "samples/register.scss";
+
+.register {
+  &__image {
+    width: 90%;
+  }
+}
